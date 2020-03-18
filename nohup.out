@@ -1,0 +1,945 @@
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 117, in <module>
+    main()
+  File "main.py", line 114, in main
+    app.run('127.0.0.1', debug=True, port=443, ssl_context=('./ssl/server.crt', './ssl/server.key')) 
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 13] Permission denied
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://127.0.0.1:443/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 188-649-902
+127.0.0.1 - - [26/Jan/2020 16:52:51] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:52:57] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:52:58] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:52:59] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:14] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:15] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:15] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:15] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:17] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:19] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:19] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:20] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:21] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:21] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:21] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:22] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:25] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 16:53:27] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:00:28] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:00:29] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:00:29] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:00:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:00:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:05] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:07] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:10] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:10] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:18] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:21] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:21] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:01:33] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:05:35] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:05:36] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:05:36] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:05:36] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:05:37] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:06:34] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:54] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:54] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:54] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:54] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:55] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:13:57] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:00] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:00] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:14] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:14] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:14] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:14:15] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:06] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:18] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:18] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:19] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:20] "POST /lottery/get_item HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:20] "POST /lottery/get_item HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:23] "POST /lottery/get_item HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:27] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:28] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:28] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:28] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:29] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:29] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:29] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:29] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:30] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:30] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:36] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:40] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:41] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:41] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:42] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:42] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:43] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:52] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:53] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:53] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:53] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:54] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:54] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:54] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+127.0.0.1 - - [26/Jan/2020 17:15:54] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:56] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:56] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:57] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:57] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:57] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:58] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:15:59] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:00] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:03] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:04] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:04] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:10] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:17] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:17] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:17] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:18] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:19] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:27] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:29] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:31] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:34] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:37] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:38] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:38] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:44] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:44] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:54] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:55] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:55] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:58] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:16:58] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:00] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:00] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:00] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:00] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:06] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:06] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:06] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:06] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:08] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:08] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:11] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:11] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:11] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:12] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:13] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:13] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:14] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:15] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:16] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:18] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:19] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:20] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:22] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:25] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:26] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:27] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:29] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:30] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:31] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:32] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:35] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:37] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:37] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:38] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:39] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:39] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:50] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:51] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:51] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:51] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:52] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:52] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:52] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:52] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:17:52] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:08] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:08] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:08] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:09] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:09] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2020 17:20:10] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 05:24:12] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 05:24:12] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 05:24:12] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 05:24:12] "POST /weather/get_status HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 05:24:13] "POST /weather/get_status HTTP/1.1" 200 -
+ * Detected change in '/home/tairongvpn/mcbobo/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 188-649-902
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 120, in <module>
+    main()
+  File "main.py", line 117, in main
+    app.run('127.0.0.1', debug=True, port=443, ssl_context=('./ssl/server.crt', './ssl/server.key')) 
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+127.0.0.1 - - [27/Jan/2020 08:31:49] "POST /config/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:31:50] "POST /other_coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:31:50] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:31:50] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:31:57] "POST /coupon/get_detail HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:31:59] "POST /coupon/redeem HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:32:00] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:32:00] "POST /sticker/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:32:01] "POST /coupon/get_list HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jan/2020 08:32:06] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-01-29 15:37:56,198 - pid:31408 [I] load_plugins:525 - Loaded plugin proxy.http.proxy.HttpProxyPlugin
+2020-01-29 15:37:56,199 - pid:31408 [I] listen:63 - Listening on 10.146.0.2:7896
+2020-01-29 15:37:56,209 - pid:31408 [I] start_workers:84 - Started 4 workers
+Exception !
+2020-01-29 15:38:11,045 - pid:31412 [I] access_log:332 - 27.242.67.127:61500 - CONNECT init.push.apple.com:443 - 6711 bytes - 1045.47 ms
+2020-01-29 15:38:11,047 - pid:31413 [I] access_log:332 - 27.242.67.127:61501 - CONNECT init.push.apple.com:443 - 6711 bytes - 1053.97 ms
+2020-01-29 15:38:11,097 - pid:31414 [I] access_log:343 - 27.242.67.127:57474 - POST 203.205.219.244:80/?tk=698590637763c70a594f3b3b975be56275c270a86bc57294e86829251471c145323f6e7f03b881db21133b1bf2ae5bc5 - 200 OK - 411 bytes - 181.85 ms
+2020-01-29 15:38:14,130 - pid:31411 [I] access_log:332 - 27.242.67.127:57473 - CONNECT p60-buy.itunes.apple.com:443 - 6392 bytes - 3218.98 ms
+2020-01-29 15:38:29,940 - pid:31412 [I] access_log:332 - 27.242.67.127:57481 - CONNECT app-measurement.com:443 - 3583 bytes - 607.61 ms
+2020-01-29 15:38:30,238 - pid:31413 [I] access_log:332 - 27.242.67.127:57485 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.95 ms
+2020-01-29 15:38:30,392 - pid:31413 [I] access_log:332 - 27.242.67.127:57490 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.30 ms
+2020-01-29 15:38:30,540 - pid:31414 [I] access_log:332 - 27.242.67.127:57491 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.70 ms
+2020-01-29 15:38:30,677 - pid:31414 [I] access_log:332 - 27.242.67.127:57496 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 7.78 ms
+2020-01-29 15:38:30,686 - pid:31412 [I] access_log:332 - 27.242.67.127:57497 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.81 ms
+2020-01-29 15:38:30,849 - pid:31411 [I] access_log:332 - 27.242.67.127:57498 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.66 ms
+2020-01-29 15:38:31,131 - pid:31412 [I] access_log:332 - 27.242.67.127:57493 - CONNECT graph.facebook.com:443 - 3894 bytes - 568.74 ms
+2020-01-29 15:38:31,853 - pid:31412 [I] access_log:332 - 27.242.67.127:57489 - CONNECT ws.batch.com:443 - 5505 bytes - 1607.50 ms
+2020-01-29 15:38:31,891 - pid:31411 [I] access_log:332 - 27.242.67.127:57487 - CONNECT ws.batch.com:443 - 5569 bytes - 1653.97 ms
+2020-01-29 15:38:31,891 - pid:31414 [I] access_log:332 - 27.242.67.127:57488 - CONNECT ws.batch.com:443 - 5520 bytes - 1653.60 ms
+2020-01-29 15:38:31,903 - pid:31411 [I] access_log:332 - 27.242.67.127:57483 - CONNECT e.crashlytics.com:443 - 273 bytes - 2093.50 ms
+2020-01-29 15:38:31,911 - pid:31414 [I] access_log:332 - 27.242.67.127:57479 - CONNECT e.crashlytics.com:443 - 6048 bytes - 2987.76 ms
+2020-01-29 15:38:32,580 - pid:31411 [I] access_log:332 - 27.242.67.127:57477 - CONNECT p60-buy.itunes.apple.com:443 - 2491 bytes - 3838.69 ms
+2020-01-29 15:38:32,670 - pid:31414 [I] access_log:332 - 27.242.67.127:57484 - CONNECT www.googleadservices.com:443 - 3383 bytes - 2458.05 ms
+2020-01-29 15:38:32,671 - pid:31413 [I] access_log:332 - 27.242.67.127:57494 - CONNECT data.flurry.com:443 - 875 bytes - 2098.13 ms
+2020-01-29 15:38:32,671 - pid:31412 [I] access_log:332 - 27.242.67.127:57486 - CONNECT ssl.google-analytics.com:443 - 3645 bytes - 2449.69 ms
+2020-01-29 15:38:32,763 - pid:31413 [I] access_log:332 - 27.242.67.127:57482 - CONNECT smn7fr3x-ios.mobile-sdk-api.intercom.io:443 - 6422 bytes - 2961.26 ms
+2020-01-29 15:38:32,920 - pid:31411 [I] access_log:332 - 27.242.67.127:57492 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 2387.61 ms
+2020-01-29 15:38:33,738 - pid:31413 [I] access_log:332 - 27.242.67.127:57499 - CONNECT t.appsflyer.com:443 - 3594 bytes - 2891.58 ms
+2020-01-29 15:38:33,763 - pid:31414 [I] access_log:332 - 27.242.67.127:57500 - CONNECT ws.batch.com:443 - 5505 bytes - 1809.80 ms
+2020-01-29 15:38:34,401 - pid:31413 [I] access_log:332 - 27.242.67.127:57501 - CONNECT app-measurement.com:443 - 3583 bytes - 548.65 ms
+2020-01-29 15:38:35,502 - pid:31411 [I] access_log:332 - 27.242.67.127:57495 - CONNECT e.crashlytics.com:443 - 6304 bytes - 4842.96 ms
+2020-01-29 15:38:35,991 - pid:31413 [I] access_log:332 - 27.242.67.127:57503 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.62 ms
+2020-01-29 15:38:36,149 - pid:31411 [I] access_log:332 - 27.242.67.127:57506 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.26 ms
+2020-01-29 15:38:36,150 - pid:31414 [I] access_log:332 - 27.242.67.127:57507 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.65 ms
+2020-01-29 15:38:36,332 - pid:31412 [I] access_log:332 - 27.242.67.127:57509 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.04 ms
+2020-01-29 15:38:37,132 - pid:31412 [I] access_log:332 - 27.242.67.127:57502 - CONNECT data.flurry.com:443 - 4788 bytes - 2389.92 ms
+2020-01-29 15:38:38,612 - pid:31414 [I] access_log:332 - 27.242.67.127:57504 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 2637.67 ms
+2020-01-29 15:38:38,613 - pid:31412 [I] access_log:332 - 27.242.67.127:57505 - CONNECT e.crashlytics.com:443 - 273 bytes - 2569.12 ms
+2020-01-29 15:38:39,332 - pid:31413 [I] access_log:332 - 27.242.67.127:57508 - CONNECT t.appsflyer.com:443 - 391 bytes - 3070.86 ms
+2020-01-29 15:38:41,423 - pid:31411 [I] access_log:332 - 27.242.67.127:57511 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.21 ms
+2020-01-29 15:38:43,740 - pid:31414 [I] access_log:332 - 27.242.67.127:57514 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.30 ms
+2020-01-29 15:38:43,902 - pid:31411 [I] access_log:332 - 27.242.67.127:57517 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.16 ms
+2020-01-29 15:38:44,401 - pid:31412 [I] access_log:332 - 27.242.67.127:57516 - CONNECT app-measurement.com:443 - 3583 bytes - 547.46 ms
+2020-01-29 15:38:46,102 - pid:31413 [I] access_log:332 - 27.242.67.127:57515 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 2360.61 ms
+2020-01-29 15:38:47,134 - pid:31414 [I] access_log:332 - 27.242.67.127:57518 - CONNECT t.appsflyer.com:443 - 3594 bytes - 3114.05 ms
+2020-01-29 15:38:47,140 - pid:31412 [I] access_log:332 - 27.242.67.127:57512 - CONNECT data.flurry.com:443 - 1506 bytes - 3453.42 ms
+2020-01-29 15:38:47,836 - pid:31411 [I] access_log:332 - 27.242.67.127:57513 - CONNECT e.crashlytics.com:443 - 6176 bytes - 4149.47 ms
+2020-01-29 15:38:47,837 - pid:31413 [I] access_log:332 - 27.242.67.127:57519 - CONNECT e.crashlytics.com:443 - 273 bytes - 3134.71 ms
+2020-01-29 15:38:48,148 - pid:31414 [I] access_log:332 - 27.242.67.127:57521 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.67 ms
+2020-01-29 15:38:48,522 - pid:31413 [I] access_log:332 - 27.242.67.127:57525 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 7.91 ms
+2020-01-29 15:38:48,690 - pid:31412 [I] access_log:332 - 27.242.67.127:57528 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 7.94 ms
+2020-01-29 15:38:49,109 - pid:31412 [I] access_log:332 - 27.242.67.127:57520 - CONNECT ws.batch.com:443 - 5505 bytes - 1614.77 ms
+2020-01-29 15:38:49,491 - pid:31413 [I] access_log:332 - 27.242.67.127:57523 - CONNECT ws.batch.com:443 - 5100 bytes - 1345.43 ms
+2020-01-29 15:38:49,591 - pid:31411 [I] access_log:332 - 27.242.67.127:57522 - CONNECT ws.batch.com:443 - 5100 bytes - 1443.01 ms
+2020-01-29 15:38:49,591 - pid:31411 [I] access_log:332 - 27.242.67.127:57530 - CONNECT app-measurement.com:443 - 3583 bytes - 567.37 ms
+2020-01-29 15:38:49,591 - pid:31413 [I] access_log:332 - 27.242.67.127:57533 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.74 ms
+2020-01-29 15:38:49,597 - pid:31412 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:38:49,597 - pid:31412 [I] access_log:332 - 27.242.67.127:57532 - CONNECT e.crashlytics.com:443 - 0 bytes - 194.63 ms
+2020-01-29 15:38:49,598 - pid:31411 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:38:49,598 - pid:31411 [I] access_log:332 - 27.242.67.127:57526 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 1076.82 ms
+2020-01-29 15:38:49,854 - pid:31414 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:38:49,854 - pid:31414 [I] access_log:332 - 27.242.67.127:57531 - CONNECT ws.batch.com:443 - 5049 bytes - 636.80 ms
+2020-01-29 15:38:49,953 - pid:31414 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:38:49,953 - pid:31413 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:38:49,953 - pid:31414 [I] access_log:332 - 27.242.67.127:57527 - CONNECT e.crashlytics.com:443 - 6048 bytes - 1400.87 ms
+2020-01-29 15:38:49,953 - pid:31413 [I] access_log:332 - 27.242.67.127:57529 - CONNECT data.flurry.com:443 - 4785 bytes - 962.76 ms
+2020-01-29 15:38:50,589 - pid:31412 [I] access_log:332 - 27.242.67.127:57537 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.40 ms
+2020-01-29 15:38:50,926 - pid:31413 [I] access_log:332 - 27.242.67.127:57542 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.72 ms
+2020-01-29 15:38:50,931 - pid:31411 [I] access_log:332 - 27.242.67.127:57535 - CONNECT graph.facebook.com:443 - 4424 bytes - 396.69 ms
+2020-01-29 15:38:51,018 - pid:31412 [I] access_log:332 - 27.242.67.127:57543 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.74 ms
+2020-01-29 15:38:51,024 - pid:31414 [I] access_log:332 - 27.242.67.127:57536 - CONNECT graph.facebook.com:443 - 4204 bytes - 481.60 ms
+2020-01-29 15:38:51,099 - pid:31413 [I] access_log:332 - 27.242.67.127:57550 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.66 ms
+2020-01-29 15:38:51,174 - pid:31412 [I] access_log:332 - 27.242.67.127:57551 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.62 ms
+2020-01-29 15:38:51,215 - pid:31413 [I] access_log:332 - 27.242.67.127:57538 - CONNECT www.gstatic.com:443 - 4113 bytes - 458.50 ms
+2020-01-29 15:38:51,247 - pid:31411 [I] access_log:332 - 27.242.67.127:57553 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.26 ms
+2020-01-29 15:38:51,321 - pid:31414 [I] access_log:332 - 27.242.67.127:57556 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 7.98 ms
+2020-01-29 15:38:51,446 - pid:31411 [I] access_log:332 - 27.242.67.127:57539 - CONNECT play.googleapis.com:443 - 3722 bytes - 674.33 ms
+2020-01-29 15:38:51,463 - pid:31411 [I] access_log:332 - 27.242.67.127:57557 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.59 ms
+2020-01-29 15:38:51,508 - pid:31414 [I] access_log:332 - 27.242.67.127:57540 - CONNECT settings.crashlytics.com:443 - 6440 bytes - 658.68 ms
+2020-01-29 15:38:51,654 - pid:31412 [I] access_log:332 - 27.242.67.127:57541 - CONNECT setting.adzcore.com:443 - 0 bytes - 752.86 ms
+2020-01-29 15:38:52,187 - pid:31412 [I] access_log:332 - 27.242.67.127:57524 - CONNECT p60-buy.itunes.apple.com:443 - 8736 bytes - 4023.74 ms
+2020-01-29 15:38:52,681 - pid:31413 [I] access_log:332 - 27.242.67.127:57547 - CONNECT ws.batch.com:443 - 5569 bytes - 1661.23 ms
+2020-01-29 15:38:52,703 - pid:31411 [I] access_log:332 - 27.242.67.127:57549 - CONNECT ws.batch.com:443 - 5505 bytes - 1683.12 ms
+2020-01-29 15:38:53,295 - pid:31412 [I] access_log:332 - 27.242.67.127:57546 - CONNECT data.flurry.com:443 - 4788 bytes - 2275.43 ms
+2020-01-29 15:38:53,303 - pid:31414 [I] access_log:332 - 27.242.67.127:57544 - CONNECT www.googleadservices.com:443 - 3383 bytes - 2282.75 ms
+2020-01-29 15:38:53,303 - pid:31412 [I] access_log:332 - 27.242.67.127:57555 - CONNECT data.flurry.com:443 - 4765 bytes - 2047.55 ms
+2020-01-29 15:38:53,303 - pid:31413 [I] access_log:332 - 27.242.67.127:57554 - CONNECT data.flurry.com:443 - 851 bytes - 2055.80 ms
+2020-01-29 15:38:53,469 - pid:31414 [I] access_log:332 - 27.242.67.127:57545 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 2451.54 ms
+2020-01-29 15:38:53,880 - pid:31413 [I] access_log:332 - 27.242.67.127:57558 - CONNECT e.crashlytics.com:443 - 273 bytes - 2030.35 ms
+2020-01-29 15:38:53,880 - pid:31411 [I] access_log:332 - 27.242.67.127:57548 - CONNECT e.crashlytics.com:443 - 6048 bytes - 2878.66 ms
+2020-01-29 15:38:54,304 - pid:31414 [I] access_log:332 - 27.242.67.127:57552 - CONNECT t.appsflyer.com:443 - 3594 bytes - 3080.51 ms
+2020-01-29 15:38:54,992 - pid:31412 [I] access_log:332 - 27.242.67.127:57559 - CONNECT e.crashlytics.com:443 - 6048 bytes - 3140.64 ms
+2020-01-29 15:38:58,162 - pid:31414 [I] access_log:332 - 27.242.67.127:57560 - CONNECT ws.batch.com:443 - 5520 bytes - 2097.73 ms
+2020-01-29 15:39:06,171 - pid:31413 [I] access_log:332 - 27.242.67.127:57561 - CONNECT graph.facebook.com:443 - 3895 bytes - 486.66 ms
+2020-01-29 15:39:41,311 - pid:31411 [I] access_log:332 - 27.242.67.127:57566 - CONNECT app-measurement.com:443 - 3583 bytes - 587.48 ms
+2020-01-29 15:39:41,343 - pid:31414 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:39:41,343 - pid:31414 [I] access_log:332 - 27.242.67.127:57564 - CONNECT data.flurry.com:443 - 893 bytes - 659.92 ms
+2020-01-29 15:39:41,343 - pid:31412 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:39:41,343 - pid:31412 [I] access_log:332 - 27.242.67.127:57563 - CONNECT e.crashlytics.com:443 - 5869 bytes - 651.78 ms
+2020-01-29 15:39:41,350 - pid:31413 [W] handle_readables:312 - ConnectionResetError(104, 'Connection reset by peer')
+2020-01-29 15:39:41,350 - pid:31413 [I] access_log:332 - 27.242.67.127:57565 - CONNECT ws.batch.com:443 - 5049 bytes - 652.22 ms
+2020-02-01 10:05:12,953 - pid:14841 [I] load_plugins:525 - Loaded plugin proxy.http.proxy.HttpProxyPlugin
+ * Serving Flask app "main_v2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2020-02-01 10:05:12,987 - pid:14841 [I] listen:63 - Listening on 10.140.0.3:7896
+2020-02-01 10:05:12,995 - pid:14841 [I] start_workers:84 - Started 2 workers
+2020-02-01 10:05:52,693 - pid:14874 [I] load_plugins:525 - Loaded plugin proxy.http.proxy.HttpProxyPlugin
+Exception !
+ * Serving Flask app "main_v2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2020-02-01 10:05:52,701 - pid:14874 [I] _log:122 -  * Running on https://127.0.0.1:443/ (Press CTRL+C to quit)
+2020-02-01 10:05:52,702 - pid:14874 [I] _log:122 -  * Restarting with stat
+2020-02-01 10:05:52,960 - pid:14877 [I] load_plugins:525 - Loaded plugin proxy.http.proxy.HttpProxyPlugin
+2020-02-01 10:05:52,966 - pid:14877 [W] _log:122 -  * Debugger is active!
+2020-02-01 10:05:52,966 - pid:14877 [I] _log:122 -  * Debugger PIN: 872-045-055
+2020-02-01 10:06:16,847 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:16] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:16,849 - pid:14859 [I] access_log:332 - 27.52.33.96:33692 - CONNECT api1.mcddailyapp.com:443 - 13882 bytes - 170.34 ms
+2020-02-01 10:06:17,070 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:17] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:17,072 - pid:14860 [I] access_log:332 - 27.52.33.96:33698 - CONNECT api1.mcddailyapp.com:443 - 12210 bytes - 146.78 ms
+2020-02-01 10:06:17,104 - pid:14860 [I] access_log:332 - 27.52.33.96:33695 - CONNECT www.gstatic.com:443 - 4114 bytes - 301.98 ms
+2020-02-01 10:06:17,106 - pid:14859 [I] access_log:332 - 27.52.33.96:33696 - CONNECT play.googleapis.com:443 - 3697 bytes - 220.96 ms
+2020-02-01 10:06:17,139 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:17] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:17,140 - pid:14859 [I] access_log:332 - 27.52.33.96:33701 - CONNECT api1.mcddailyapp.com:443 - 852 bytes - 115.18 ms
+2020-02-01 10:06:17,162 - pid:14859 [I] access_log:332 - 27.52.33.96:33697 - CONNECT settings.crashlytics.com:443 - 6325 bytes - 237.21 ms
+2020-02-01 10:06:17,234 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:17] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:17,236 - pid:14860 [I] access_log:332 - 27.52.33.96:33700 - CONNECT api1.mcddailyapp.com:443 - 13882 bytes - 211.83 ms
+2020-02-01 10:06:17,460 - pid:14860 [I] access_log:332 - 27.52.33.96:33705 - CONNECT data.flurry.com:443 - 4762 bytes - 394.31 ms
+2020-02-01 10:06:17,513 - pid:14859 [I] access_log:332 - 27.52.33.96:33710 - CONNECT data.flurry.com:443 - 849 bytes - 267.13 ms
+2020-02-01 10:06:17,694 - pid:14859 [I] access_log:332 - 27.52.33.96:33693 - CONNECT graph.facebook.com:443 - 4552 bytes - 981.96 ms
+2020-02-01 10:06:17,694 - pid:14860 [I] access_log:332 - 27.52.33.96:33694 - CONNECT graph.facebook.com:443 - 4320 bytes - 997.33 ms
+2020-02-01 10:06:17,896 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:17] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:06:17,897 - pid:14859 [I] access_log:332 - 27.52.33.96:33715 - CONNECT api1.mcddailyapp.com:443 - 941 bytes - 120.38 ms
+2020-02-01 10:06:18,152 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:18] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:06:18,153 - pid:14859 [I] access_log:332 - 27.52.33.96:33717 - CONNECT api2.mcddailyapp.com:443 - 2613 bytes - 146.52 ms
+2020-02-01 10:06:18,287 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:18] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:18,288 - pid:14860 [I] access_log:332 - 27.52.33.96:33720 - CONNECT api2.mcddailyapp.com:443 - 852 bytes - 121.51 ms
+2020-02-01 10:06:18,664 - pid:14860 [I] access_log:332 - 27.52.33.96:33714 - CONNECT graph.facebook.com:443 - 3895 bytes - 953.99 ms
+2020-02-01 10:06:18,916 - pid:14859 [I] access_log:332 - 27.52.33.96:33702 - CONNECT ws.batch.com:443 - 5569 bytes - 1848.13 ms
+2020-02-01 10:06:18,924 - pid:14860 [I] access_log:332 - 27.52.33.96:33704 - CONNECT ws.batch.com:443 - 5505 bytes - 1859.20 ms
+2020-02-01 10:06:18,966 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:18] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:18,967 - pid:14859 [I] access_log:332 - 27.52.33.96:33721 - CONNECT api2.mcddailyapp.com:443 - 4073 bytes - 180.88 ms
+2020-02-01 10:06:18,997 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:18] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:18,998 - pid:14860 [I] access_log:332 - 27.52.33.96:33722 - CONNECT api2.mcddailyapp.com:443 - 852 bytes - 203.25 ms
+2020-02-01 10:06:19,014 - pid:14860 [I] access_log:332 - 27.52.33.96:33716 - CONNECT setting.adzcore.com:443 - 0 bytes - 1128.46 ms
+2020-02-01 10:06:19,095 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:19] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:19,096 - pid:14859 [I] access_log:332 - 27.52.33.96:33723 - CONNECT api2.mcddailyapp.com:443 - 4073 bytes - 270.27 ms
+2020-02-01 10:06:19,505 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:19] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:19,506 - pid:14860 [I] access_log:332 - 27.52.33.96:33724 - CONNECT api2.mcddailyapp.com:443 - 1252 bytes - 129.20 ms
+2020-02-01 10:06:21,334 - pid:14860 [I] access_log:332 - 27.52.33.96:33726 - CONNECT app-measurement.com:443 - 3630 bytes - 230.86 ms
+2020-02-01 10:06:21,664 - pid:14859 [I] access_log:332 - 27.52.33.96:33727 - CONNECT app-measurement.com:443 - 3583 bytes - 276.70 ms
+2020-02-01 10:06:22,464 - pid:14860 [I] access_log:332 - 27.52.33.96:33728 - CONNECT play.googleapis.com:443 - 3694 bytes - 248.74 ms
+2020-02-01 10:06:27,279 - pid:14859 [I] access_log:332 - 27.52.33.96:33706 - CONNECT www.googleadservices.com:443 - 3383 bytes - 10209.68 ms
+2020-02-01 10:06:27,415 - pid:14860 [I] access_log:332 - 27.52.33.96:33709 - CONNECT www.googleadservices.com:443 - 3383 bytes - 10183.59 ms
+2020-02-01 10:06:27,572 - pid:14859 [I] access_log:332 - 27.52.33.96:33713 - CONNECT api.mcddaily.com.tw:443 - 1018 bytes - 10255.58 ms
+2020-02-01 10:06:28,226 - pid:14859 [I] access_log:332 - 27.52.33.96:33703 - CONNECT api.mcddaily.com.tw:443 - 6393 bytes - 11161.68 ms
+2020-02-01 10:06:28,589 - pid:14860 [I] access_log:332 - 27.52.33.96:33699 - CONNECT p60-buy.itunes.apple.com:443 - 6392 bytes - 11672.98 ms
+2020-02-01 10:06:29,054 - pid:14860 [I] access_log:332 - 27.52.33.96:33711 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11766.36 ms
+2020-02-01 10:06:29,187 - pid:14859 [I] access_log:332 - 27.52.33.96:33729 - CONNECT ws.batch.com:443 - 5049 bytes - 6921.78 ms
+2020-02-01 10:06:29,396 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:29] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:29,398 - pid:14860 [I] access_log:332 - 27.52.33.96:33732 - CONNECT api2.mcddailyapp.com:443 - 12210 bytes - 134.91 ms
+2020-02-01 10:06:29,402 - pid:14859 [I] access_log:332 - 27.52.33.96:33718 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11324.66 ms
+2020-02-01 10:06:29,408 - pid:14860 [I] access_log:332 - 27.52.33.96:33719 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11330.26 ms
+2020-02-01 10:06:29,685 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:29] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:29,686 - pid:14860 [I] access_log:332 - 27.52.33.96:33736 - CONNECT api1.mcddailyapp.com:443 - 852 bytes - 121.51 ms
+2020-02-01 10:06:29,806 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:06:29] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:06:29,806 - pid:14859 [I] access_log:332 - 27.52.33.96:33737 - CONNECT api1.mcddailyapp.com:443 - 2401 bytes - 130.28 ms
+2020-02-01 10:06:30,064 - pid:14860 [I] access_log:332 - 27.52.33.96:33730 - CONNECT ws.batch.com:443 - 5505 bytes - 7752.85 ms
+2020-02-01 10:06:31,103 - pid:14860 [I] access_log:332 - 27.52.33.96:33731 - CONNECT ws.batch.com:443 - 5520 bytes - 1857.00 ms
+2020-02-01 10:06:31,103 - pid:14859 [I] access_log:332 - 27.52.33.96:33733 - CONNECT ws.batch.com:443 - 5569 bytes - 1839.19 ms
+2020-02-01 10:06:31,385 - pid:14859 [I] access_log:332 - 27.52.33.96:33725 - CONNECT data.flurry.com:443 - 4768 bytes - 10339.16 ms
+2020-02-01 10:06:31,792 - pid:14859 [I] access_log:332 - 27.52.33.96:33741 - CONNECT app-measurement.com:443 - 3583 bytes - 275.92 ms
+2020-02-01 10:06:32,054 - pid:14860 [I] access_log:332 - 27.52.33.96:33740 - CONNECT ws.batch.com:443 - 5520 bytes - 1823.39 ms
+2020-02-01 10:06:32,066 - pid:14859 [I] access_log:332 - 27.52.33.96:33739 - CONNECT ws.batch.com:443 - 5505 bytes - 1939.87 ms
+2020-02-01 10:06:39,871 - pid:14859 [I] access_log:332 - 27.52.33.96:33735 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 10306.01 ms
+2020-02-01 10:06:40,417 - pid:14859 [I] access_log:332 - 27.52.33.96:33734 - CONNECT p60-buy.itunes.apple.com:443 - 1319 bytes - 11154.10 ms
+2020-02-01 10:06:41,224 - pid:14860 [I] access_log:332 - 27.52.33.96:33738 - CONNECT t.appsflyer.com:443 - 391 bytes - 11402.18 ms
+2020-02-01 10:06:41,882 - pid:14859 [I] access_log:332 - 27.52.33.96:33707 - CONNECT e.crashlytics.com:443 - 6432 bytes - 24776.74 ms
+2020-02-01 10:06:42,570 - pid:14860 [I] access_log:332 - 27.52.33.96:33742 - CONNECT data.flurry.com:443 - 4785 bytes - 10553.93 ms
+2020-02-01 10:06:42,868 - pid:14859 [I] access_log:332 - 27.52.33.96:33743 - CONNECT ws.batch.com:443 - 0 bytes - 10273.18 ms
+2020-02-01 10:07:20,698 - pid:14859 [I] access_log:332 - 27.52.33.96:33744 - CONNECT gsp-ssl.ls.apple.com:443 - 3507 bytes - 10988.07 ms
+2020-02-01 10:07:24,521 - pid:14860 [I] access_log:332 - 27.52.33.96:33745 - CONNECT gsp64-ssl.ls.apple.com:443 - 3605 bytes - 2939.82 ms
+2020-02-01 10:07:54,536 - pid:14860 [I] access_log:332 - 27.52.33.96:33746 - CONNECT gateway.icloud.com:443 - 9937 bytes - 3476.24 ms
+2020-02-01 10:08:03,597 - pid:14859 [I] access_log:332 - 27.52.33.96:33747 - CONNECT gateway-carry.icloud.com:443 - 31241 bytes - 10489.84 ms
+2020-02-01 10:08:15,410 - pid:14860 [I] access_log:332 - 27.52.33.96:33748 - CONNECT init.push.apple.com:443 - 6710 bytes - 1237.08 ms
+2020-02-01 10:10:12,520 - pid:14859 [I] access_log:332 - 27.52.33.96:33752 - CONNECT ratealert.waccliu.tw:443 - 10035 bytes - 10430.22 ms
+2020-02-01 10:10:12,600 - pid:14860 [I] access_log:332 - 27.52.33.96:33751 - CONNECT apple-finance.query.yahoo.com:443 - 5638 bytes - 10509.76 ms
+2020-02-01 10:10:12,640 - pid:14859 [I] access_log:332 - 27.52.33.96:33753 - CONNECT api.cryptopro.app:443 - 3855 bytes - 10549.45 ms
+2020-02-01 10:10:13,275 - pid:14860 [I] access_log:332 - 27.52.33.96:33749 - CONNECT stocks-edge.apple.com:443 - 4353 bytes - 11195.28 ms
+2020-02-01 10:10:13,550 - pid:14859 [I] access_log:332 - 27.52.33.96:33754 - CONNECT gs-loc.apple.com:443 - 3098 bytes - 1548.20 ms
+2020-02-01 10:10:14,172 - pid:14859 [I] access_log:332 - 27.52.33.96:33750 - CONNECT stocks-sparkline.apple.com:443 - 12525 bytes - 12083.69 ms
+2020-02-01 10:10:17,074 - pid:14860 [I] access_log:332 - 27.52.33.96:33761 - CONNECT mesu.apple.com:443 - 264 bytes - 2154.75 ms
+2020-02-01 10:10:17,081 - pid:14859 [I] access_log:332 - 27.52.33.96:33758 - CONNECT mesu.apple.com:443 - 5191 bytes - 2332.50 ms
+2020-02-01 10:10:21,362 - pid:14859 [I] access_log:332 - 27.52.33.96:33772 - CONNECT configuration.ls.apple.com:443 - 4847 bytes - 323.47 ms
+2020-02-01 10:10:24,582 - pid:14860 [I] access_log:332 - 27.52.33.96:33755 - CONNECT gateway-carry.icloud.com:443 - 8065 bytes - 10630.98 ms
+2020-02-01 10:10:25,202 - pid:14860 [I] access_log:332 - 27.52.33.96:33759 - CONNECT metrics.icloud.com:443 - 5251 bytes - 10333.67 ms
+2020-02-01 10:10:25,218 - pid:14859 [I] access_log:332 - 27.52.33.96:33760 - CONNECT metrics.icloud.com:443 - 5166 bytes - 10349.96 ms
+2020-02-01 10:10:27,694 - pid:14860 [I] access_log:332 - 27.52.33.96:33763 - CONNECT p14-keyvalueservice.icloud.com:443 - 8299 bytes - 10563.84 ms
+2020-02-01 10:10:28,069 - pid:14859 [I] access_log:332 - 27.52.33.96:33764 - CONNECT arcg.is:443 - 4030 bytes - 10690.76 ms
+2020-02-01 10:10:30,218 - pid:14859 [I] access_log:332 - 27.52.33.96:33766 - CONNECT cdn.arcgis.com:443 - 5347 bytes - 10789.87 ms
+2020-02-01 10:10:30,512 - pid:14860 [I] access_log:332 - 27.52.33.96:33769 - CONNECT js.arcgis.com:443 - 4542 bytes - 10282.60 ms
+2020-02-01 10:10:30,567 - pid:14859 [I] access_log:332 - 27.52.33.96:33762 - CONNECT gisanddata.maps.arcgis.com:443 - 12678 bytes - 15566.28 ms
+2020-02-01 10:10:30,576 - pid:14859 [I] access_log:332 - 27.52.33.96:33770 - CONNECT static.arcgis.com:443 - 4510 bytes - 10329.37 ms
+2020-02-01 10:10:31,094 - pid:14859 [I] access_log:332 - 27.52.33.96:33768 - CONNECT js.arcgis.com:443 - 7061 bytes - 10891.85 ms
+2020-02-01 10:10:31,183 - pid:14860 [I] access_log:332 - 27.52.33.96:33765 - CONNECT services1.arcgis.com:443 - 32146 bytes - 12222.04 ms
+2020-02-01 10:10:31,211 - pid:14859 [I] access_log:332 - 27.52.33.96:33756 - CONNECT gateway-carry.icloud.com:443 - 9423 bytes - 17170.51 ms
+2020-02-01 10:10:31,255 - pid:14860 [I] access_log:332 - 27.52.33.96:33767 - CONNECT basemaps.arcgis.com:443 - 7961 bytes - 11434.84 ms
+2020-02-01 10:10:31,411 - pid:14860 [I] access_log:332 - 27.52.33.96:33773 - CONNECT accounts.google.com:443 - 4436 bytes - 10283.15 ms
+2020-02-01 10:10:31,640 - pid:14859 [I] access_log:332 - 27.52.33.96:33774 - CONNECT api1.mcddailyapp.com:80 - 4149 bytes - 10201.16 ms
+2020-02-01 10:10:34,124 - pid:14860 [I] access_log:332 - 27.52.33.96:33757 - CONNECT api-glb-tpe.smoot.apple.com:443 - 8569 bytes - 19523.65 ms
+2020-02-01 10:10:34,137 - pid:14860 [I] access_log:332 - 27.52.33.96:33771 - CONNECT clients1.google.com:443 - 6597 bytes - 13258.51 ms
+2020-02-01 10:10:34,165 - pid:14860 [I] access_log:332 - 27.52.33.96:33775 - CONNECT cdn.smoot.apple.com:443 - 5917 bytes - 10234.03 ms
+2020-02-01 10:10:34,751 - pid:14859 [I] access_log:332 - 27.52.33.96:33776 - CONNECT gsp64-ssl.ls.apple.com:443 - 3602 bytes - 2269.64 ms
+2020-02-01 10:13:15,873 - pid:14860 [I] access_log:332 - 114.136.55.245:43764 - CONNECT gateway.icloud.com:443 - 5579 bytes - 929.55 ms
+2020-02-01 10:13:20,991 - pid:14859 [I] access_log:332 - 114.136.55.245:43766 - CONNECT gateway.icloud.com:443 - 11852 bytes - 5046.81 ms
+2020-02-01 10:13:28,300 - pid:14860 [I] access_log:332 - 114.136.55.245:43769 - CONNECT api1.mcddailyapp.com:80 - 3802 bytes - 10066.46 ms
+2020-02-01 10:13:28,431 - pid:14860 [I] access_log:332 - 114.136.55.245:43777 - CONNECT gateway.icloud.com:443 - 3920 bytes - 3747.67 ms
+2020-02-01 10:13:28,488 - pid:14859 [I] access_log:332 - 114.136.55.245:43771 - CONNECT api1.mcddailyapp.com:80 - 347 bytes - 10081.45 ms
+2020-02-01 10:13:28,708 - pid:14860 [I] access_log:332 - 114.136.55.245:43773 - CONNECT api1.mcddailyapp.com:80 - 347 bytes - 10055.97 ms
+2020-02-01 10:13:30,122 - pid:14859 [I] access_log:332 - 114.136.55.245:43775 - CONNECT p36-keyvalueservice.icloud.com:443 - 8298 bytes - 10648.48 ms
+2020-02-01 10:13:32,218 - pid:14860 [I] access_log:332 - 114.136.55.245:43781 - CONNECT mesu.apple.com:443 - 172 bytes - 2124.01 ms
+2020-02-01 10:13:32,222 - pid:14859 [I] access_log:332 - 114.136.55.245:43779 - CONNECT mesu.apple.com:443 - 4678 bytes - 2848.37 ms
+2020-02-01 10:13:50,497 - pid:14859 [I] access_log:332 - 114.136.55.245:43783 - CONNECT api1.mcddailyapp.com:80 - 347 bytes - 10063.40 ms
+2020-02-01 10:13:50,682 - pid:14860 [I] access_log:332 - 114.136.55.245:43785 - CONNECT api1.mcddailyapp.com:80 - 347 bytes - 10070.80 ms
+2020-02-01 10:13:51,261 - pid:14860 [I] access_log:332 - 114.136.55.245:43787 - CONNECT gateway.icloud.com:443 - 8755 bytes - 3947.69 ms
+2020-02-01 10:13:59,574 - pid:14859 [I] access_log:332 - 114.136.55.245:43789 - CONNECT metrics.icloud.com:443 - 5165 bytes - 10359.90 ms
+2020-02-01 10:14:38,492 - pid:14860 [I] access_log:332 - 114.136.55.245:43791 - CONNECT gs-loc.apple.com:443 - 3095 bytes - 1117.77 ms
+2020-02-01 10:15:37,957 - pid:14860 [I] access_log:332 - 114.136.55.245:43793 - CONNECT mesu.apple.com:443 - 4267 bytes - 2453.74 ms
+2020-02-01 10:15:48,563 - pid:14860 [I] access_log:332 - 114.136.55.245:43795 - CONNECT gsp-ssl.ls.apple.com:443 - 3512 bytes - 10850.11 ms
+2020-02-01 10:16:23,588 - pid:14859 [I] access_log:332 - 114.136.55.245:43798 - CONNECT p36-keyvalueservice.icloud.com:443 - 8298 bytes - 10654.37 ms
+2020-02-01 10:16:24,280 - pid:14859 [I] access_log:332 - 114.136.55.245:43804 - CONNECT graph.facebook.com:443 - 4437 bytes - 667.08 ms
+2020-02-01 10:16:24,290 - pid:14860 [I] access_log:332 - 114.136.55.245:43803 - CONNECT graph.facebook.com:443 - 4214 bytes - 668.61 ms
+2020-02-01 10:16:24,582 - pid:14859 [I] access_log:332 - 114.136.55.245:43806 - CONNECT graph.facebook.com:443 - 4221 bytes - 959.23 ms
+2020-02-01 10:16:24,634 - pid:14860 [I] access_log:332 - 114.136.55.245:43800 - CONNECT p36-keyvalueservice.icloud.com:443 - 8283 bytes - 10631.24 ms
+2020-02-01 10:16:26,820 - pid:14860 [I] access_log:332 - 114.136.55.245:43814 - CONNECT graph.facebook.com:443 - 4325 bytes - 2490.68 ms
+2020-02-01 10:16:34,841 - pid:14860 [I] access_log:332 - 114.136.55.245:43812 - CONNECT playrix.helpshift.com:443 - 4555 bytes - 11043.00 ms
+2020-02-01 10:16:35,166 - pid:14860 [I] access_log:332 - 114.136.55.245:43811 - CONNECT p37-buy.itunes.apple.com:443 - 6391 bytes - 11377.62 ms
+2020-02-01 10:16:38,418 - pid:14859 [I] access_log:332 - 114.136.55.245:43843 - CONNECT gardenscapes-cdn.playrix.com:443 - 13067 bytes - 3324.58 ms
+2020-02-01 10:16:38,425 - pid:14859 [I] access_log:332 - 114.136.55.245:43824 - CONNECT cdn.playrix.com:443 - 4371 bytes - 10299.92 ms
+2020-02-01 10:16:38,433 - pid:14860 [I] access_log:332 - 114.136.55.245:43819 - CONNECT itunes.apple.com:443 - 17846 bytes - 10539.84 ms
+2020-02-01 10:16:38,514 - pid:14859 [I] access_log:332 - 114.136.55.245:43816 - CONNECT in.appcenter.ms:443 - 5439 bytes - 11630.57 ms
+2020-02-01 10:16:38,957 - pid:14860 [I] access_log:332 - 114.136.55.245:43827 - CONNECT config.unityads.unity3d.com:443 - 5492 bytes - 10566.00 ms
+2020-02-01 10:16:39,061 - pid:14859 [I] access_log:332 - 114.136.55.245:43822 - CONNECT 3789.content.swrve.com:443 - 5595 bytes - 11067.83 ms
+2020-02-01 10:16:39,288 - pid:14860 [I] access_log:332 - 114.136.55.245:43821 - CONNECT 3789.api.swrve.com:443 - 5456 bytes - 11287.01 ms
+2020-02-01 10:16:39,772 - pid:14859 [I] access_log:332 - 114.136.55.245:43829 - CONNECT 3789.api.swrve.com:443 - 262 bytes - 10864.80 ms
+2020-02-01 10:16:41,825 - pid:14860 [I] access_log:332 - 114.136.55.245:43831 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11542.89 ms
+2020-02-01 10:16:41,829 - pid:14859 [I] access_log:332 - 114.136.55.245:43833 - CONNECT publisher-config.unityads.unity3d.com:443 - 7407 bytes - 10455.65 ms
+2020-02-01 10:16:42,495 - pid:14860 [I] access_log:332 - 114.136.55.245:43835 - CONNECT auiopt.unityads.unity3d.com:443 - 5534 bytes - 10421.99 ms
+2020-02-01 10:16:43,434 - pid:14859 [I] access_log:332 - 114.136.55.245:43863 - CONNECT app-measurement.com:443 - 3665 bytes - 262.84 ms
+2020-02-01 10:16:43,743 - pid:14860 [I] access_log:332 - 114.136.55.245:43865 - CONNECT app-measurement.com:443 - 3618 bytes - 229.59 ms
+2020-02-01 10:16:43,828 - pid:14860 [I] access_log:332 - 114.136.55.245:43839 - CONNECT z.moatads.com:443 - 4261 bytes - 10297.06 ms
+2020-02-01 10:16:45,133 - pid:14859 [I] access_log:332 - 114.136.55.245:43837 - CONNECT auction.unityads.unity3d.com:443 - 19482 bytes - 12479.99 ms
+2020-02-01 10:16:45,557 - pid:14860 [I] access_log:332 - 114.136.55.245:43841 - CONNECT ads.api.vungle.com:443 - 5042 bytes - 10668.25 ms
+2020-02-01 10:16:46,392 - pid:14859 [I] access_log:332 - 114.136.55.245:43810 - CONNECT gardenscapes-newacres.playrix.com:443 - 20705 bytes - 22594.20 ms
+2020-02-01 10:16:47,328 - pid:14859 [I] access_log:332 - 114.136.55.245:43850 - CONNECT scontent.xx.fbcdn.net:443 - 5568 bytes - 10314.44 ms
+2020-02-01 10:16:48,861 - pid:14859 [I] access_log:332 - 114.136.55.245:43847 - CONNECT graph.facebook.com:443 - 8094 bytes - 12383.85 ms
+2020-02-01 10:16:48,905 - pid:14860 [I] access_log:332 - 114.136.55.245:43858 - CONNECT sdk-diagnostics.prd.mz.internal.unity3d.com:443 - 4524 bytes - 10331.83 ms
+2020-02-01 10:16:49,305 - pid:14860 [I] access_log:332 - 114.136.55.245:43851 - CONNECT platform-lookaside.fbsbx.com:443 - 57408 bytes - 12301.32 ms
+2020-02-01 10:16:49,355 - pid:14859 [I] access_log:332 - 114.136.55.245:43859 - CONNECT cdn-store-icons-highwinds-prd.unityads.unity3d.com:443 - 27567 bytes - 10733.62 ms
+2020-02-01 10:16:49,563 - pid:14859 [I] access_log:332 - 114.136.55.245:43855 - CONNECT live.chartboost.com:443 - 5921 bytes - 11139.60 ms
+2020-02-01 10:16:49,694 - pid:14860 [I] access_log:332 - 114.136.55.245:43845 - CONNECT cdn-creatives-highwinds-prd.unityads.unity3d.com:443 - 2764008 bytes - 14261.02 ms
+2020-02-01 10:16:50,920 - pid:14860 [I] access_log:332 - 114.136.55.245:43853 - CONNECT live.chartboost.com:443 - 11126 bytes - 13416.22 ms
+2020-02-01 10:16:51,391 - pid:14860 [I] access_log:332 - 114.136.55.245:43861 - CONNECT a2.chartboost.com:443 - 37389 bytes - 10266.95 ms
+2020-02-01 10:17:00,284 - pid:14859 [I] access_log:332 - 114.136.55.245:43867 - CONNECT itunes.apple.com:443 - 17967 bytes - 10485.74 ms
+2020-02-01 10:17:12,258 - pid:14860 [I] access_log:332 - 114.136.55.245:43869 - CONNECT gardenscapes-newacres.playrix.com:443 - 6264 bytes - 14520.93 ms
+2020-02-01 10:17:39,326 - pid:14859 [I] access_log:332 - 27.52.33.96:33786 - CONNECT play.googleapis.com:443 - 3993 bytes - 285.72 ms
+2020-02-01 10:17:39,764 - pid:14860 [I] access_log:332 - 27.52.33.96:33787 - CONNECT play.googleapis.com:443 - 3739 bytes - 239.23 ms
+2020-02-01 10:17:40,070 - pid:14859 [I] access_log:332 - 27.52.33.96:33788 - CONNECT play.googleapis.com:443 - 3764 bytes - 265.84 ms
+2020-02-01 10:17:41,503 - pid:14860 [I] access_log:332 - 114.136.55.245:43871 - CONNECT gardenscapes-newacres.playrix.com:443 - 362 bytes - 11230.92 ms
+2020-02-01 10:17:45,723 - pid:14860 [I] access_log:332 - 27.52.33.96:33793 - CONNECT configuration.ls.apple.com:443 - 4819 bytes - 288.76 ms
+2020-02-01 10:17:46,192 - pid:14859 [I] access_log:332 - 27.52.33.96:33796 - CONNECT configuration.ls.apple.com:443 - 4819 bytes - 297.94 ms
+2020-02-01 10:17:50,414 - pid:14859 [I] access_log:332 - 27.52.33.96:33792 - CONNECT api1.mcddailyapp.com:80 - 1845 bytes - 5929.65 ms
+2020-02-01 10:17:51,449 - pid:14860 [I] access_log:332 - 27.52.33.96:33789 - CONNECT gateway-carry.icloud.com:443 - 6710 bytes - 10574.01 ms
+2020-02-01 10:17:55,003 - pid:14860 [I] access_log:332 - 27.52.33.96:33791 - CONNECT p14-keyvalueservice.icloud.com:443 - 8297 bytes - 10578.64 ms
+2020-02-01 10:17:55,710 - pid:14859 [I] access_log:332 - 27.52.33.96:33794 - CONNECT gspe35-ssl.ls.apple.com:443 - 6163 bytes - 10260.14 ms
+2020-02-01 10:17:56,229 - pid:14860 [I] access_log:332 - 27.52.33.96:33797 - CONNECT api-glb-tpe.smoot.apple.com:443 - 5107 bytes - 10326.46 ms
+2020-02-01 10:17:56,470 - pid:14860 [I] access_log:332 - 27.52.33.96:33795 - CONNECT gsp-ssl.ls.apple.com:443 - 4156 bytes - 10615.97 ms
+2020-02-01 10:17:57,068 - pid:14860 [I] access_log:332 - 114.136.55.245:43873 - CONNECT app-measurement.com:443 - 3618 bytes - 425.89 ms
+2020-02-01 10:17:59,482 - pid:14859 [I] access_log:332 - 27.52.33.96:33799 - CONNECT metrics.icloud.com:443 - 5165 bytes - 10307.63 ms
+2020-02-01 10:17:59,537 - pid:14859 [I] access_log:332 - 27.52.33.96:33798 - CONNECT gateway-carry.icloud.com:443 - 8770 bytes - 12601.67 ms
+2020-02-01 10:18:00,146 - pid:14859 [I] access_log:332 - 27.52.33.96:33790 - CONNECT api-glb-tpe.smoot.apple.com:443 - 8180 bytes - 18121.27 ms
+2020-02-01 10:18:00,462 - pid:14859 [I] access_log:332 - 27.52.33.96:33800 - CONNECT gsp64-ssl.ls.apple.com:443 - 3603 bytes - 3338.62 ms
+2020-02-01 10:18:01,942 - pid:14860 [I] access_log:332 - 114.136.55.245:43882 - CONNECT api1.mcddailyapp.com:80 - 1498 bytes - 181.73 ms
+2020-02-01 10:18:09,206 - pid:14860 [I] access_log:332 - 114.136.55.245:43875 - CONNECT 3789.api.swrve.com:443 - 5456 bytes - 11714.07 ms
+2020-02-01 10:18:12,054 - pid:14860 [I] access_log:332 - 114.136.55.245:43878 - CONNECT p36-keyvalueservice.icloud.com:443 - 8299 bytes - 10631.41 ms
+2020-02-01 10:18:13,907 - pid:14859 [I] access_log:332 - 114.136.55.245:43880 - CONNECT gardenscapes-newacres.playrix.com:443 - 6333 bytes - 12314.89 ms
+2020-02-01 10:18:25,819 - pid:14859 [I] access_log:332 - 114.136.55.245:43890 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 259.47 ms
+2020-02-01 10:18:26,018 - pid:14860 [I] access_log:332 - 114.136.55.245:43892 - CONNECT www.gstatic.com:443 - 4147 bytes - 376.12 ms
+2020-02-01 10:18:26,210 - pid:14859 [I] access_log:332 - 114.136.55.245:43898 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 125.00 ms
+2020-02-01 10:18:26,371 - pid:14860 [I] access_log:332 - 114.136.55.245:43914 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 111.40 ms
+2020-02-01 10:18:26,387 - pid:14859 [I] access_log:332 - 114.136.55.245:43900 - CONNECT play.googleapis.com:443 - 3849 bytes - 264.41 ms
+2020-02-01 10:18:26,439 - pid:14860 [I] access_log:332 - 114.136.55.245:43902 - CONNECT settings.crashlytics.com:443 - 6485 bytes - 316.37 ms
+2020-02-01 10:18:26,464 - pid:14859 [I] access_log:332 - 114.136.55.245:43917 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 104.95 ms
+2020-02-01 10:18:26,546 - pid:14859 [I] access_log:332 - 114.136.55.245:43927 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 132.75 ms
+2020-02-01 10:18:26,592 - pid:14859 [I] access_log:332 - 114.136.55.245:43888 - CONNECT graph.facebook.com:443 - 4195 bytes - 1120.79 ms
+2020-02-01 10:18:26,592 - pid:14860 [I] access_log:332 - 114.136.55.245:43925 - CONNECT app-measurement.com:443 - 3665 bytes - 212.89 ms
+2020-02-01 10:18:26,599 - pid:14859 [I] access_log:332 - 114.136.55.245:43935 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 91.68 ms
+2020-02-01 10:18:26,643 - pid:14860 [I] access_log:332 - 114.136.55.245:43887 - CONNECT graph.facebook.com:443 - 4425 bytes - 1162.16 ms
+2020-02-01 10:18:26,666 - pid:14860 [I] access_log:332 - 114.136.55.245:43929 - CONNECT play.googleapis.com:443 - 3758 bytes - 231.68 ms
+2020-02-01 10:18:26,864 - pid:14859 [I] access_log:332 - 114.136.55.245:43939 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 213.29 ms
+2020-02-01 10:18:27,107 - pid:14859 [I] access_log:332 - 114.136.55.245:43945 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 142.09 ms
+2020-02-01 10:18:27,108 - pid:14860 [I] access_log:332 - 114.136.55.245:43941 - CONNECT app-measurement.com:443 - 3618 bytes - 449.71 ms
+2020-02-01 10:18:27,150 - pid:14859 [I] access_log:332 - 114.136.55.245:43943 - CONNECT play.googleapis.com:443 - 3730 bytes - 450.61 ms
+2020-02-01 10:18:27,429 - pid:14859 [I] access_log:332 - 114.136.55.245:43948 - CONNECT app-measurement.com:443 - 3618 bytes - 279.48 ms
+2020-02-01 10:18:27,754 - pid:14860 [I] access_log:332 - 114.136.55.245:43937 - CONNECT graph.facebook.com:443 - 3768 bytes - 1124.86 ms
+2020-02-01 10:18:27,834 - pid:14860 [I] access_log:332 - 114.136.55.245:43912 - CONNECT ws.batch.com:443 - 5569 bytes - 1656.18 ms
+2020-02-01 10:18:27,861 - pid:14859 [I] access_log:332 - 114.136.55.245:43911 - CONNECT ws.batch.com:443 - 5505 bytes - 1682.90 ms
+2020-02-01 10:18:27,932 - pid:14860 [I] access_log:332 - 114.136.55.245:43946 - CONNECT setting.adzcore.com:443 - 0 bytes - 823.97 ms
+2020-02-01 10:18:28,170 - pid:14859 [I] access_log:332 - 114.136.55.245:43956 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 118.85 ms
+2020-02-01 10:18:30,112 - pid:14860 [I] access_log:332 - 114.136.55.245:43958 - CONNECT app-measurement.com:443 - 3618 bytes - 257.62 ms
+2020-02-01 10:18:30,234 - pid:14859 [I] access_log:332 - 114.136.55.245:43918 - CONNECT t.appsflyer.com:443 - 3594 bytes - 3894.71 ms
+2020-02-01 10:18:30,239 - pid:14860 [I] access_log:332 - 114.136.55.245:43920 - CONNECT www.googleadservices.com:443 - 498 bytes - 3889.66 ms
+2020-02-01 10:18:30,239 - pid:14859 [I] access_log:332 - 114.136.55.245:43933 - CONNECT data.flurry.com:443 - 750 bytes - 3744.55 ms
+2020-02-01 10:18:30,240 - pid:14860 [I] access_log:332 - 114.136.55.245:43922 - CONNECT www.googleadservices.com:443 - 498 bytes - 3878.72 ms
+2020-02-01 10:18:30,245 - pid:14860 [I] access_log:332 - 114.136.55.245:43952 - CONNECT e.crashlytics.com:443 - 401 bytes - 3022.94 ms
+2020-02-01 10:18:30,249 - pid:14859 [I] access_log:332 - 114.136.55.245:43953 - CONNECT e.crashlytics.com:443 - 401 bytes - 3019.42 ms
+2020-02-01 10:18:30,249 - pid:14859 [I] access_log:332 - 114.136.55.245:43960 - CONNECT app-measurement.com:443 - 0 bytes - 64.31 ms
+2020-02-01 10:18:30,252 - pid:14860 [I] access_log:332 - 114.136.55.245:43932 - CONNECT data.flurry.com:443 - 750 bytes - 3749.71 ms
+2020-02-01 10:18:30,252 - pid:14859 [I] access_log:332 - 114.136.55.245:43909 - CONNECT data.flurry.com:443 - 4828 bytes - 4107.70 ms
+2020-02-01 10:18:30,252 - pid:14860 [I] access_log:332 - 114.136.55.245:43907 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 4129.82 ms
+2020-02-01 10:18:30,253 - pid:14860 [I] access_log:332 - 114.136.55.245:43910 - CONNECT www.googleadservices.com:443 - 3390 bytes - 4102.89 ms
+2020-02-01 10:18:30,253 - pid:14859 [I] access_log:332 - 114.136.55.245:43923 - CONNECT e.crashlytics.com:443 - 6304 bytes - 3880.08 ms
+2020-02-01 10:18:30,253 - pid:14860 [I] access_log:332 - 114.136.55.245:43954 - CONNECT e.crashlytics.com:443 - 273 bytes - 3015.20 ms
+2020-02-01 10:18:31,717 - pid:14860 [I] access_log:332 - 114.136.55.245:43966 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 225.56 ms
+2020-02-01 10:18:31,937 - pid:14860 [I] access_log:332 - 114.136.55.245:43971 - CONNECT settings.crashlytics.com:443 - 6206 bytes - 287.00 ms
+2020-02-01 10:18:31,956 - pid:14859 [I] access_log:332 - 114.136.55.245:43974 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 148.60 ms
+2020-02-01 10:18:32,099 - pid:14859 [I] access_log:332 - 114.136.55.245:43969 - CONNECT play.googleapis.com:443 - 3774 bytes - 448.84 ms
+2020-02-01 10:18:32,329 - pid:14859 [I] access_log:332 - 114.136.55.245:43977 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 177.75 ms
+2020-02-01 10:18:32,450 - pid:14860 [I] access_log:332 - 114.136.55.245:43984 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 288.92 ms
+2020-02-01 10:18:32,493 - pid:14859 [I] access_log:332 - 114.136.55.245:43962 - CONNECT graph.facebook.com:443 - 4297 bytes - 1032.64 ms
+2020-02-01 10:18:32,527 - pid:14859 [I] access_log:332 - 114.136.55.245:43994 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 130.58 ms
+2020-02-01 10:18:32,529 - pid:14860 [I] access_log:332 - 114.136.55.245:43964 - CONNECT graph.facebook.com:443 - 4078 bytes - 1069.11 ms
+2020-02-01 10:18:32,617 - pid:14859 [I] access_log:332 - 114.136.55.245:44001 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 137.64 ms
+2020-02-01 10:18:32,673 - pid:14860 [I] access_log:332 - 114.136.55.245:43978 - CONNECT data.flurry.com:443 - 4166 bytes - 532.96 ms
+2020-02-01 10:18:32,679 - pid:14859 [I] access_log:332 - 114.136.55.245:44004 - CONNECT setting.adzcore.com:443 - 0 bytes - 1.96 ms
+2020-02-01 10:18:32,750 - pid:14860 [I] access_log:332 - 114.136.55.245:44003 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 174.34 ms
+2020-02-01 10:18:32,929 - pid:14860 [I] access_log:332 - 114.136.55.245:44006 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 123.70 ms
+2020-02-01 10:18:33,440 - pid:14859 [I] access_log:332 - 114.136.55.245:43884 - CONNECT p36-keyvalueservice.icloud.com:443 - 1229 bytes - 10335.93 ms
+2020-02-01 10:18:33,679 - pid:14860 [I] access_log:332 - 114.136.55.245:43987 - CONNECT ws.batch.com:443 - 5569 bytes - 1519.22 ms
+2020-02-01 10:18:33,684 - pid:14859 [I] access_log:332 - 114.136.55.245:43982 - CONNECT ws.batch.com:443 - 5505 bytes - 1523.25 ms
+2020-02-01 10:18:34,517 - pid:14860 [I] access_log:332 - 114.136.55.245:44014 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 115.80 ms
+2020-02-01 10:18:36,532 - pid:14859 [I] access_log:332 - 114.136.55.245:44016 - CONNECT app-measurement.com:443 - 3618 bytes - 307.86 ms
+2020-02-01 10:18:36,853 - pid:14859 [I] access_log:332 - 114.136.55.245:44020 - CONNECT app-measurement.com:443 - 3618 bytes - 273.39 ms
+2020-02-01 10:18:38,324 - pid:14860 [I] access_log:332 - 114.136.55.245:44018 - CONNECT ws.batch.com:443 - 5520 bytes - 1756.52 ms
+2020-02-01 10:18:39,760 - pid:14859 [I] access_log:332 - 114.136.55.245:43999 - CONNECT data.flurry.com:443 - 1387 bytes - 7310.25 ms
+2020-02-01 10:18:39,760 - pid:14860 [I] access_log:332 - 114.136.55.245:43992 - CONNECT t.appsflyer.com:443 - 3594 bytes - 7389.04 ms
+2020-02-01 10:18:39,761 - pid:14859 [I] access_log:332 - 114.136.55.245:44010 - CONNECT e.crashlytics.com:443 - 273 bytes - 6729.37 ms
+2020-02-01 10:18:39,761 - pid:14860 [I] access_log:332 - 114.136.55.245:43901 - CONNECT p37-buy.itunes.apple.com:443 - 7562 bytes - 13646.47 ms
+2020-02-01 10:18:39,761 - pid:14860 [I] access_log:332 - 114.136.55.245:44012 - CONNECT e.crashlytics.com:443 - 145 bytes - 6721.97 ms
+2020-02-01 10:18:39,761 - pid:14859 [I] access_log:332 - 114.136.55.245:44008 - CONNECT e.crashlytics.com:443 - 273 bytes - 6720.54 ms
+2020-02-01 10:18:39,762 - pid:14859 [I] access_log:332 - 114.136.55.245:43988 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 7586.85 ms
+2020-02-01 10:18:39,762 - pid:14860 [I] access_log:332 - 114.136.55.245:43990 - CONNECT e.crashlytics.com:443 - 6176 bytes - 7538.71 ms
+2020-02-01 10:18:39,762 - pid:14860 [I] access_log:332 - 114.136.55.245:43981 - CONNECT www.googleadservices.com:443 - 3390 bytes - 7601.54 ms
+2020-02-01 10:18:39,763 - pid:14860 [I] access_log:332 - 114.136.55.245:43998 - CONNECT data.flurry.com:443 - 759 bytes - 7310.73 ms
+2020-02-01 10:18:48,914 - pid:14860 [I] access_log:332 - 27.52.33.96:33802 - CONNECT www.amazon.sa:443 - 0 bytes - 388.35 ms
+2020-02-01 10:18:49,179 - pid:14859 [I] access_log:332 - 27.52.33.96:33803 - CONNECT www.amazon.sa:443 - 0 bytes - 192.12 ms
+2020-02-01 10:18:49,466 - pid:14860 [I] access_log:332 - 27.52.33.96:33804 - CONNECT www.amazon.sa:443 - 0 bytes - 209.01 ms
+2020-02-01 10:18:49,527 - pid:14859 [I] access_log:332 - 27.52.33.96:33808 - CONNECT binance.cloud:443 - 0 bytes - 21.92 ms
+2020-02-01 10:18:49,541 - pid:14860 [I] access_log:332 - 27.52.33.96:33809 - CONNECT amazon.sa:443 - 0 bytes - 35.79 ms
+2020-02-01 10:18:49,548 - pid:14860 [I] access_log:332 - 27.52.33.96:33805 - CONNECT m-goshopback.vn:443 - 0 bytes - 58.26 ms
+2020-02-01 10:18:49,581 - pid:14860 [I] access_log:332 - 27.52.33.96:33807 - CONNECT www.stage.dcard.io:443 - 0 bytes - 74.34 ms
+2020-02-01 10:18:49,644 - pid:14859 [I] access_log:332 - 27.52.33.96:33806 - CONNECT m.tst.shopback.com.au:443 - 0 bytes - 162.88 ms
+2020-02-01 10:18:50,638 - pid:14860 [I] access_log:332 - 27.52.33.96:33811 - CONNECT m-goshopback.vn:443 - 0 bytes - 2.27 ms
+2020-02-01 10:18:50,638 - pid:14859 [I] access_log:332 - 27.52.33.96:33810 - CONNECT binance.cloud:443 - 0 bytes - 10.85 ms
+2020-02-01 10:18:50,645 - pid:14859 [I] access_log:332 - 27.52.33.96:33812 - CONNECT amazon.sa:443 - 0 bytes - 1.73 ms
+2020-02-01 10:18:50,677 - pid:14860 [I] access_log:332 - 27.52.33.96:33813 - CONNECT www.stage.dcard.io:443 - 0 bytes - 1.81 ms
+2020-02-01 10:18:50,727 - pid:14859 [I] access_log:332 - 27.52.33.96:33814 - CONNECT m.tst.shopback.com.au:443 - 0 bytes - 1.87 ms
+2020-02-01 10:18:51,782 - pid:14860 [I] access_log:332 - 27.52.33.96:33815 - CONNECT m-goshopback.vn:443 - 0 bytes - 14.16 ms
+2020-02-01 10:18:51,783 - pid:14859 [I] access_log:332 - 27.52.33.96:33816 - CONNECT amazon.sa:443 - 0 bytes - 3.27 ms
+2020-02-01 10:18:51,784 - pid:14859 [I] access_log:332 - 27.52.33.96:33817 - CONNECT binance.cloud:443 - 0 bytes - 3.04 ms
+2020-02-01 10:18:51,785 - pid:14860 [I] access_log:332 - 27.52.33.96:33818 - CONNECT www.stage.dcard.io:443 - 0 bytes - 3.13 ms
+2020-02-01 10:18:51,845 - pid:14859 [I] access_log:332 - 27.52.33.96:33819 - CONNECT m.tst.shopback.com.au:443 - 0 bytes - 2.13 ms
+2020-02-01 10:18:52,310 - pid:14859 [I] access_log:332 - 27.52.33.96:33801 - CONNECT p14-keyvalueservice.icloud.com:443 - 8300 bytes - 3792.79 ms
+2020-02-01 10:18:56,826 - pid:14860 [I] access_log:332 - 114.136.55.245:44025 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 125.22 ms
+2020-02-01 10:18:57,512 - pid:14859 [I] access_log:332 - 114.136.55.245:44039 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 95.90 ms
+2020-02-01 10:18:57,661 - pid:14860 [I] access_log:332 - 114.136.55.245:44045 - CONNECT api1.mcddailyapp.com:443 - 1529 bytes - 106.71 ms
+2020-02-01 10:18:57,732 - pid:14860 [I] access_log:332 - 114.136.55.245:44043 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 164.21 ms
+2020-02-01 10:18:57,822 - pid:14860 [I] access_log:332 - 114.136.55.245:44034 - CONNECT graph.facebook.com:443 - 3788 bytes - 502.07 ms
+2020-02-01 10:18:57,877 - pid:14860 [I] access_log:332 - 114.136.55.245:44049 - CONNECT api2.mcddailyapp.com:443 - 1529 bytes - 97.31 ms
+2020-02-01 10:18:58,250 - pid:14859 [I] access_log:332 - 114.136.55.245:44030 - CONNECT ws.batch.com:443 - 5520 bytes - 1543.89 ms
+2020-02-01 10:18:58,299 - pid:14860 [I] access_log:332 - 114.136.55.245:44029 - CONNECT ws.batch.com:443 - 5505 bytes - 1602.96 ms
+2020-02-01 10:18:58,301 - pid:14860 [I] access_log:332 - 114.136.55.245:44031 - CONNECT ws.batch.com:443 - 5569 bytes - 1597.18 ms
+2020-02-01 10:19:00,208 - pid:14859 [I] access_log:332 - 114.136.55.245:44051 - CONNECT ws.batch.com:443 - 5505 bytes - 1838.12 ms
+2020-02-01 10:19:01,492 - pid:14860 [I] access_log:332 - 114.136.55.245:44053 - CONNECT app-measurement.com:443 - 3618 bytes - 271.64 ms
+2020-02-01 10:19:01,893 - pid:14859 [I] access_log:332 - 114.136.55.245:44055 - CONNECT app-measurement.com:443 - 3618 bytes - 346.42 ms
+2020-02-01 10:19:07,579 - pid:14860 [I] access_log:332 - 114.136.55.245:44036 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 10264.24 ms
+2020-02-01 10:19:07,641 - pid:14859 [I] access_log:332 - 114.136.55.245:44024 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10940.17 ms
+2020-02-01 10:19:08,377 - pid:14859 [I] access_log:332 - 114.136.55.245:44057 - CONNECT itunes.com:443 - 4679 bytes - 1857.28 ms
+2020-02-01 10:19:08,385 - pid:14860 [I] access_log:332 - 114.136.55.245:44059 - CONNECT itunes.apple.com:443 - 339402 bytes - 632.48 ms
+2020-02-01 10:19:09,030 - pid:14859 [I] access_log:332 - 114.136.55.245:44041 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11470.56 ms
+2020-02-01 10:19:11,366 - pid:14859 [I] access_log:332 - 114.136.55.245:44038 - CONNECT data.flurry.com:443 - 1406 bytes - 14046.04 ms
+2020-02-01 10:19:11,609 - pid:14859 [I] access_log:332 - 114.136.55.245:44047 - CONNECT e.crashlytics.com:443 - 6176 bytes - 14027.40 ms
+2020-02-01 10:19:12,245 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:12] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:12,247 - pid:14859 [I] access_log:332 - 114.136.55.245:44069 - CONNECT api2.mcddailyapp.com:443 - 13315 bytes - 175.51 ms
+2020-02-01 10:19:12,780 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:12] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:12,782 - pid:14860 [I] access_log:332 - 114.136.55.245:44071 - CONNECT api2.mcddailyapp.com:443 - 13315 bytes - 381.97 ms
+2020-02-01 10:19:12,963 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:12] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:12,964 - pid:14859 [I] access_log:332 - 114.136.55.245:44073 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 185.13 ms
+2020-02-01 10:19:13,540 - pid:14860 [I] access_log:332 - 114.136.55.245:44067 - CONNECT ws.batch.com:443 - 5569 bytes - 1534.76 ms
+2020-02-01 10:19:13,557 - pid:14859 [I] access_log:332 - 114.136.55.245:44068 - CONNECT ws.batch.com:443 - 5505 bytes - 1559.61 ms
+2020-02-01 10:19:13,572 - pid:14860 [I] access_log:332 - 114.136.55.245:44065 - CONNECT ws.batch.com:443 - 5520 bytes - 1558.84 ms
+2020-02-01 10:19:13,614 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:13] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:19:13,614 - pid:14859 [I] access_log:332 - 114.136.55.245:44085 - CONNECT api1.mcddailyapp.com:443 - 2046 bytes - 154.96 ms
+2020-02-01 10:19:13,736 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:13] "POST /weather/get_status HTTP/1.1" 200 -
+2020-02-01 10:19:13,736 - pid:14860 [I] access_log:332 - 114.136.55.245:44087 - CONNECT api1.mcddailyapp.com:443 - 2035 bytes - 268.25 ms
+2020-02-01 10:19:13,898 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:13] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:19:13,899 - pid:14860 [I] access_log:332 - 114.136.55.245:44091 - CONNECT api2.mcddailyapp.com:443 - 2046 bytes - 193.39 ms
+2020-02-01 10:19:14,119 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:14] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:14,119 - pid:14859 [I] access_log:332 - 114.136.55.245:44093 - CONNECT api2.mcddailyapp.com:443 - 1957 bytes - 181.07 ms
+2020-02-01 10:19:14,483 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:14] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:14,483 - pid:14860 [I] access_log:332 - 114.136.55.245:44095 - CONNECT api2.mcddailyapp.com:443 - 3506 bytes - 180.94 ms
+2020-02-01 10:19:14,564 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:14] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:14,564 - pid:14859 [I] access_log:332 - 114.136.55.245:44097 - CONNECT api2.mcddailyapp.com:443 - 1957 bytes - 237.10 ms
+2020-02-01 10:19:14,660 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:14] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:14,661 - pid:14860 [I] access_log:332 - 114.136.55.245:44099 - CONNECT api2.mcddailyapp.com:443 - 3506 bytes - 307.96 ms
+2020-02-01 10:19:15,119 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:15] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:19:15,120 - pid:14860 [I] access_log:332 - 114.136.55.245:44103 - CONNECT api2.mcddailyapp.com:443 - 2357 bytes - 180.01 ms
+2020-02-01 10:19:15,136 - pid:14859 [I] access_log:332 - 114.136.55.245:44089 - CONNECT ws.batch.com:443 - 5505 bytes - 1525.86 ms
+2020-02-01 10:19:19,787 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:19:19] "POST /coupon/get_detail HTTP/1.1" 200 -
+2020-02-01 10:19:19,788 - pid:14859 [I] access_log:332 - 114.136.55.245:44105 - CONNECT api2.mcddailyapp.com:443 - 2338 bytes - 238.35 ms
+2020-02-01 10:19:22,943 - pid:14859 [I] access_log:332 - 114.136.55.245:44064 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10935.57 ms
+2020-02-01 10:19:23,099 - pid:14860 [I] access_log:332 - 114.136.55.245:44075 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 10284.58 ms
+2020-02-01 10:19:23,175 - pid:14860 [I] access_log:332 - 114.136.55.245:44080 - CONNECT data.flurry.com:443 - 788 bytes - 10342.33 ms
+2020-02-01 10:19:23,211 - pid:14860 [I] access_log:332 - 114.136.55.245:44083 - CONNECT api.mcddaily.com.tw:443 - 1034 bytes - 10342.46 ms
+2020-02-01 10:19:24,015 - pid:14859 [I] access_log:332 - 114.136.55.245:44081 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11167.28 ms
+2020-02-01 10:19:24,300 - pid:14859 [I] access_log:332 - 114.136.55.245:44078 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11483.58 ms
+2020-02-01 10:19:28,626 - pid:14859 [I] access_log:332 - 114.136.55.245:44101 - CONNECT mcdapp1.azureedge.net:443 - 734315 bytes - 13909.22 ms
+2020-02-01 10:19:31,443 - pid:14860 [I] access_log:332 - 114.136.55.245:44107 - CONNECT events.appsflyer.com:443 - 3594 bytes - 11524.25 ms
+2020-02-01 10:19:32,889 - pid:14859 [I] access_log:332 - 114.136.55.245:44113 - CONNECT app-measurement.com:443 - 3551 bytes - 410.42 ms
+2020-02-01 10:19:33,480 - pid:14860 [I] access_log:332 - 114.136.55.245:44115 - CONNECT app-measurement.com:443 - 3551 bytes - 484.05 ms
+2020-02-01 10:19:40,477 - pid:14860 [I] access_log:332 - 114.136.55.245:44124 - CONNECT graph.facebook.com:443 - 4355 bytes - 897.48 ms
+2020-02-01 10:19:40,477 - pid:14859 [I] access_log:332 - 114.136.55.245:44125 - CONNECT graph.facebook.com:443 - 4116 bytes - 889.83 ms
+2020-02-01 10:19:43,066 - pid:14859 [I] access_log:332 - 114.136.55.245:44109 - CONNECT data.flurry.com:443 - 4143 bytes - 10596.82 ms
+2020-02-01 10:19:43,509 - pid:14860 [I] access_log:332 - 114.136.55.245:44111 - CONNECT e.crashlytics.com:443 - 273 bytes - 11031.07 ms
+2020-02-01 10:19:43,660 - pid:14859 [I] access_log:332 - 114.136.55.245:44117 - CONNECT ws.batch.com:443 - 0 bytes - 10291.12 ms
+2020-02-01 10:19:50,512 - pid:14859 [I] access_log:332 - 114.136.55.245:44121 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10974.30 ms
+2020-02-01 10:20:00,665 - pid:14859 [I] access_log:332 - 114.136.55.245:44127 - CONNECT itunes.apple.com:443 - 7697 bytes - 10305.37 ms
+2020-02-01 10:20:04,248 - pid:14860 [I] access_log:332 - 27.52.33.96:33822 - CONNECT p14-keyvalueservice.icloud.com:443 - 8299 bytes - 10542.63 ms
+2020-02-01 10:20:14,795 - pid:14859 [I] access_log:332 - 27.52.33.96:33823 - CONNECT gateway-carry.icloud.com:443 - 12666 bytes - 11489.96 ms
+2020-02-01 10:20:19,095 - pid:14859 [I] access_log:332 - 114.136.55.245:44133 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10955.08 ms
+2020-02-01 10:20:22,442 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:22] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:22,444 - pid:14859 [I] access_log:332 - 114.136.55.245:44141 - CONNECT api2.mcddailyapp.com:443 - 13315 bytes - 304.72 ms
+2020-02-01 10:20:22,648 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:22] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:22,648 - pid:14860 [I] access_log:332 - 114.136.55.245:44148 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 205.91 ms
+2020-02-01 10:20:22,837 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:22] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:22,838 - pid:14859 [I] access_log:332 - 114.136.55.245:44154 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 142.90 ms
+2020-02-01 10:20:22,976 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:22] "POST /coupon/get_detail HTTP/1.1" 200 -
+2020-02-01 10:20:22,977 - pid:14860 [I] access_log:332 - 114.136.55.245:44155 - CONNECT api1.mcddailyapp.com:443 - 2338 bytes - 278.85 ms
+2020-02-01 10:20:23,637 - pid:14860 [I] access_log:332 - 114.136.55.245:44139 - CONNECT ws.batch.com:443 - 5569 bytes - 1529.66 ms
+2020-02-01 10:20:23,647 - pid:14859 [I] access_log:332 - 114.136.55.245:44140 - CONNECT ws.batch.com:443 - 5520 bytes - 1547.69 ms
+2020-02-01 10:20:25,387 - pid:14859 [I] access_log:332 - 114.136.55.245:44157 - CONNECT ws.batch.com:443 - 5505 bytes - 1679.50 ms
+2020-02-01 10:20:27,878 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:27] "POST /coupon/redeem HTTP/1.1" 200 -
+2020-02-01 10:20:27,879 - pid:14860 [I] access_log:332 - 114.136.55.245:44159 - CONNECT api1.mcddailyapp.com:443 - 2338 bytes - 289.24 ms
+2020-02-01 10:20:29,869 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:29] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:29,870 - pid:14859 [I] access_log:332 - 114.136.55.245:44161 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 169.98 ms
+2020-02-01 10:20:30,448 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:30] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:30,449 - pid:14860 [I] access_log:332 - 114.136.55.245:44163 - CONNECT api1.mcddailyapp.com:443 - 2357 bytes - 219.56 ms
+2020-02-01 10:20:32,486 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:32] "POST /coupon/get_detail HTTP/1.1" 200 -
+2020-02-01 10:20:32,487 - pid:14859 [I] access_log:332 - 114.136.55.245:44165 - CONNECT api1.mcddailyapp.com:443 - 2338 bytes - 247.42 ms
+2020-02-01 10:20:32,720 - pid:14860 [I] access_log:332 - 114.136.55.245:44145 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 10340.55 ms
+2020-02-01 10:20:32,789 - pid:14859 [I] access_log:332 - 114.136.55.245:44146 - CONNECT data.flurry.com:443 - 804 bytes - 10362.22 ms
+2020-02-01 10:20:33,058 - pid:14860 [I] access_log:332 - 114.136.55.245:44137 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10990.15 ms
+2020-02-01 10:20:33,837 - pid:14859 [I] access_log:332 - 114.136.55.245:44149 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11342.54 ms
+2020-02-01 10:20:34,116 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:34] "POST /coupon/redeem HTTP/1.1" 200 -
+2020-02-01 10:20:34,117 - pid:14859 [I] access_log:332 - 114.136.55.245:44169 - CONNECT api1.mcddailyapp.com:443 - 2338 bytes - 259.14 ms
+2020-02-01 10:20:34,174 - pid:14860 [I] access_log:332 - 114.136.55.245:44151 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11578.27 ms
+2020-02-01 10:20:34,768 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:34] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:34,769 - pid:14860 [I] access_log:332 - 114.136.55.245:44171 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 176.13 ms
+2020-02-01 10:20:35,302 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:35] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:35,302 - pid:14859 [I] access_log:332 - 114.136.55.245:44173 - CONNECT api1.mcddailyapp.com:443 - 2357 bytes - 172.78 ms
+2020-02-01 10:20:37,613 - pid:14859 [I] access_log:332 - 114.136.55.245:44179 - CONNECT app-measurement.com:443 - 3618 bytes - 269.13 ms
+2020-02-01 10:20:38,258 - pid:14859 [I] access_log:332 - 114.136.55.245:44181 - CONNECT app-measurement.com:443 - 3618 bytes - 568.66 ms
+2020-02-01 10:20:40,999 - pid:14860 [I] access_log:332 - 114.136.55.245:44175 - CONNECT data.flurry.com:443 - 803 bytes - 3671.78 ms
+2020-02-01 10:20:41,007 - pid:14860 [I] access_log:332 - 114.136.55.245:44167 - CONNECT events.appsflyer.com:443 - 3594 bytes - 8407.77 ms
+2020-02-01 10:20:41,007 - pid:14860 [I] access_log:332 - 114.136.55.245:44183 - CONNECT ws.batch.com:443 - 0 bytes - 2817.68 ms
+2020-02-01 10:20:41,008 - pid:14860 [I] access_log:332 - 114.136.55.245:44177 - CONNECT e.crashlytics.com:443 - 5920 bytes - 3663.27 ms
+2020-02-01 10:20:56,346 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:56] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:56,347 - pid:14859 [I] access_log:332 - 114.136.55.245:44185 - CONNECT api1.mcddailyapp.com:443 - 13315 bytes - 279.15 ms
+2020-02-01 10:20:56,609 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:56] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:56,610 - pid:14860 [I] access_log:332 - 114.136.55.245:44201 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 200.25 ms
+2020-02-01 10:20:56,690 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:20:56] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:20:56,691 - pid:14859 [I] access_log:332 - 114.136.55.245:44200 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 281.46 ms
+2020-02-01 10:20:58,211 - pid:14859 [I] access_log:332 - 114.136.55.245:44188 - CONNECT ws.batch.com:443 - 5569 bytes - 2151.41 ms
+2020-02-01 10:20:58,211 - pid:14860 [I] access_log:332 - 114.136.55.245:44190 - CONNECT ws.batch.com:443 - 5520 bytes - 2159.74 ms
+2020-02-01 10:20:58,216 - pid:14860 [I] access_log:332 - 114.136.55.245:44192 - CONNECT ws.batch.com:443 - 5505 bytes - 2146.99 ms
+2020-02-01 10:21:06,136 - pid:14860 [I] access_log:332 - 114.136.55.245:44206 - CONNECT app-measurement.com:443 - 3551 bytes - 295.07 ms
+2020-02-01 10:21:06,520 - pid:14859 [I] access_log:332 - 114.136.55.245:44195 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 10264.85 ms
+2020-02-01 10:21:06,826 - pid:14860 [I] access_log:332 - 114.136.55.245:44209 - CONNECT app-measurement.com:443 - 3618 bytes - 584.82 ms
+2020-02-01 10:21:07,627 - pid:14860 [I] access_log:332 - 114.136.55.245:44193 - CONNECT p37-buy.itunes.apple.com:443 - 6391 bytes - 11558.76 ms
+2020-02-01 10:21:08,168 - pid:14859 [I] access_log:332 - 114.136.55.245:44203 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11709.56 ms
+2020-02-01 10:21:10,581 - pid:14859 [I] access_log:332 - 114.136.55.245:44211 - CONNECT ws.batch.com:443 - 0 bytes - 3871.92 ms
+2020-02-01 10:21:10,589 - pid:14859 [I] access_log:332 - 114.136.55.245:44207 - CONNECT data.flurry.com:443 - 4171 bytes - 4728.68 ms
+2020-02-01 10:21:10,589 - pid:14860 [I] access_log:332 - 114.136.55.245:44197 - CONNECT e.crashlytics.com:443 - 6176 bytes - 14225.47 ms
+2020-02-01 10:22:19,193 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:19] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:19,195 - pid:14860 [I] access_log:332 - 114.136.55.245:44218 - CONNECT api1.mcddailyapp.com:443 - 13315 bytes - 397.48 ms
+2020-02-01 10:22:19,416 - pid:14860 [I] access_log:332 - 114.136.55.245:44224 - CONNECT settings.crashlytics.com:443 - 6346 bytes - 314.84 ms
+2020-02-01 10:22:19,537 - pid:14859 [I] access_log:332 - 114.136.55.245:44223 - CONNECT play.googleapis.com:443 - 3698 bytes - 435.83 ms
+2020-02-01 10:22:19,613 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:19] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:19,614 - pid:14859 [I] access_log:332 - 114.136.55.245:44236 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 207.21 ms
+2020-02-01 10:22:19,729 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:19] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:19,730 - pid:14860 [I] access_log:332 - 114.136.55.245:44234 - CONNECT api1.mcddailyapp.com:443 - 13315 bytes - 317.17 ms
+2020-02-01 10:22:19,815 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:19] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:19,819 - pid:14859 [I] access_log:332 - 114.136.55.245:44235 - CONNECT api1.mcddailyapp.com:443 - 13315 bytes - 405.37 ms
+2020-02-01 10:22:19,901 - pid:14859 [I] access_log:332 - 114.136.55.245:44216 - CONNECT graph.facebook.com:443 - 4078 bytes - 1110.57 ms
+2020-02-01 10:22:19,940 - pid:14860 [I] access_log:332 - 114.136.55.245:44217 - CONNECT graph.facebook.com:443 - 4300 bytes - 1158.64 ms
+2020-02-01 10:22:20,425 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:20] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:22:20,426 - pid:14860 [I] access_log:332 - 114.136.55.245:44251 - CONNECT api1.mcddailyapp.com:443 - 2046 bytes - 195.39 ms
+2020-02-01 10:22:20,530 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:20] "POST /weather/get_status HTTP/1.1" 200 -
+2020-02-01 10:22:20,531 - pid:14859 [I] access_log:332 - 114.136.55.245:44253 - CONNECT api1.mcddailyapp.com:443 - 2035 bytes - 299.61 ms
+2020-02-01 10:22:20,660 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:20] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:20,661 - pid:14860 [I] access_log:332 - 114.136.55.245:44258 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 177.44 ms
+2020-02-01 10:22:20,763 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:20] "POST /news/get_home_ad_list HTTP/1.1" 404 -
+2020-02-01 10:22:20,764 - pid:14859 [I] access_log:332 - 114.136.55.245:44260 - CONNECT api2.mcddailyapp.com:443 - 2046 bytes - 196.22 ms
+2020-02-01 10:22:21,029 - pid:14859 [I] access_log:332 - 114.136.55.245:44241 - CONNECT ws.batch.com:443 - 5569 bytes - 1573.84 ms
+2020-02-01 10:22:21,041 - pid:14860 [I] access_log:332 - 114.136.55.245:44240 - CONNECT ws.batch.com:443 - 5505 bytes - 1586.60 ms
+2020-02-01 10:22:21,205 - pid:14860 [I] access_log:332 - 114.136.55.245:44254 - CONNECT setting.adzcore.com:443 - 0 bytes - 853.77 ms
+2020-02-01 10:22:26,019 - pid:14860 [I] access_log:332 - 114.136.55.245:44262 - CONNECT ws.batch.com:443 - 5520 bytes - 1807.43 ms
+2020-02-01 10:22:29,337 - pid:14859 [I] access_log:332 - 114.136.55.245:44264 - CONNECT app-measurement.com:443 - 3618 bytes - 285.94 ms
+2020-02-01 10:22:29,627 - pid:14860 [I] access_log:332 - 114.136.55.245:44227 - CONNECT www.googleadservices.com:443 - 3390 bytes - 10229.99 ms
+2020-02-01 10:22:29,951 - pid:14860 [I] access_log:332 - 114.136.55.245:44266 - CONNECT app-measurement.com:443 - 3618 bytes - 540.06 ms
+2020-02-01 10:22:29,974 - pid:14860 [I] access_log:332 - 114.136.55.245:44230 - CONNECT api.mcddaily.com.tw:443 - 6905 bytes - 10559.63 ms
+2020-02-01 10:22:30,070 - pid:14860 [I] access_log:332 - 114.136.55.245:44249 - CONNECT data.flurry.com:443 - 760 bytes - 10255.77 ms
+2020-02-01 10:22:30,155 - pid:14859 [I] access_log:332 - 114.136.55.245:44248 - CONNECT data.flurry.com:443 - 789 bytes - 10339.01 ms
+2020-02-01 10:22:30,278 - pid:14859 [I] access_log:332 - 114.136.55.245:44221 - CONNECT p37-buy.itunes.apple.com:443 - 6391 bytes - 11218.85 ms
+2020-02-01 10:22:30,959 - pid:14860 [I] access_log:332 - 114.136.55.245:44243 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11464.00 ms
+2020-02-01 10:22:31,241 - pid:14859 [I] access_log:332 - 114.136.55.245:44245 - CONNECT e.crashlytics.com:443 - 6176 bytes - 11627.28 ms
+2020-02-01 10:22:31,249 - pid:14859 [I] access_log:332 - 114.136.55.245:44239 - CONNECT data.flurry.com:443 - 4806 bytes - 11806.49 ms
+2020-02-01 10:22:31,249 - pid:14859 [I] access_log:332 - 114.136.55.245:44256 - CONNECT e.crashlytics.com:443 - 6048 bytes - 10802.72 ms
+2020-02-01 10:22:45,492 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:45] "POST /config/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:45,494 - pid:14860 [I] access_log:332 - 114.136.55.245:44272 - CONNECT api1.mcddailyapp.com:443 - 13315 bytes - 182.20 ms
+2020-02-01 10:22:45,780 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:45] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:45,781 - pid:14860 [I] access_log:332 - 114.136.55.245:44280 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 208.40 ms
+2020-02-01 10:22:47,080 - pid:14859 [I] access_log:332 - 114.136.55.245:44274 - CONNECT ws.batch.com:443 - 5520 bytes - 1778.34 ms
+2020-02-01 10:22:47,080 - pid:14860 [I] access_log:332 - 114.136.55.245:44275 - CONNECT ws.batch.com:443 - 5569 bytes - 1770.66 ms
+2020-02-01 10:22:47,110 - pid:14859 [I] access_log:332 - 114.136.55.245:44276 - CONNECT ws.batch.com:443 - 5505 bytes - 1798.56 ms
+2020-02-01 10:22:49,424 - pid:14859 [I] access_log:332 - 114.136.55.245:44286 - CONNECT ws.batch.com:443 - 5505 bytes - 2241.77 ms
+2020-02-01 10:22:50,427 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:50] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:50,427 - pid:14860 [I] access_log:332 - 114.136.55.245:44288 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 165.98 ms
+2020-02-01 10:22:50,609 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:50] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:50,609 - pid:14859 [I] access_log:332 - 114.136.55.245:44291 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 144.62 ms
+2020-02-01 10:22:50,679 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:50] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:50,680 - pid:14860 [I] access_log:332 - 114.136.55.245:44292 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 214.33 ms
+2020-02-01 10:22:51,042 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:51] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:51,043 - pid:14859 [I] access_log:332 - 114.136.55.245:44294 - CONNECT api1.mcddailyapp.com:443 - 2357 bytes - 190.21 ms
+2020-02-01 10:22:55,827 - pid:14859 [I] access_log:332 - 114.136.55.245:44278 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 10328.55 ms
+2020-02-01 10:22:56,307 - pid:14860 [I] access_log:332 - 114.136.55.245:44273 - CONNECT p37-buy.itunes.apple.com:443 - 1318 bytes - 10995.47 ms
+2020-02-01 10:22:57,276 - pid:14859 [I] access_log:332 - 114.136.55.245:44282 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11626.28 ms
+2020-02-01 10:22:57,466 - pid:14860 [I] access_log:332 - 114.136.55.245:44284 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11736.75 ms
+2020-02-01 10:22:57,520 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:57] "POST /weather/get_status HTTP/1.1" 200 -
+2020-02-01 10:22:57,521 - pid:14860 [I] access_log:332 - 114.136.55.245:44296 - CONNECT api1.mcddailyapp.com:443 - 2035 bytes - 179.64 ms
+2020-02-01 10:22:57,830 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:22:57] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:22:57,831 - pid:14859 [I] access_log:332 - 114.136.55.245:44298 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 189.45 ms
+2020-02-01 10:23:00,100 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:23:00] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:23:00,101 - pid:14860 [I] access_log:332 - 114.136.55.245:44300 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 190.87 ms
+2020-02-01 10:23:00,320 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:23:00] "POST /other_coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:23:00,320 - pid:14859 [I] access_log:332 - 114.136.55.245:44303 - CONNECT api1.mcddailyapp.com:443 - 1957 bytes - 190.76 ms
+2020-02-01 10:23:00,401 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:23:00] "POST /coupon/get_list HTTP/1.1" 200 -
+2020-02-01 10:23:00,401 - pid:14860 [I] access_log:332 - 114.136.55.245:44304 - CONNECT api1.mcddailyapp.com:443 - 3506 bytes - 253.99 ms
+2020-02-01 10:23:00,691 - pid:14877 [I] _log:122 - 127.0.0.1 - - [01/Feb/2020 10:23:00] "POST /sticker/get_list HTTP/1.1" 200 -
+2020-02-01 10:23:00,692 - pid:14859 [I] access_log:332 - 114.136.55.245:44306 - CONNECT api1.mcddailyapp.com:443 - 2357 bytes - 189.87 ms
+2020-02-01 10:23:43,284 - pid:14859 [I] access_log:332 - 114.136.55.245:44310 - CONNECT app-measurement.com:443 - 3618 bytes - 296.24 ms
+2020-02-01 10:23:43,624 - pid:14860 [I] access_log:332 - 114.136.55.245:44314 - CONNECT app-measurement.com:443 - 3618 bytes - 287.92 ms
+2020-02-01 10:23:49,766 - pid:14859 [I] access_log:332 - 114.136.55.245:44312 - CONNECT e.crashlytics.com:443 - 6048 bytes - 6731.45 ms
+2020-02-01 10:23:49,766 - pid:14860 [I] access_log:332 - 114.136.55.245:44311 - CONNECT data.flurry.com:443 - 4172 bytes - 6739.44 ms
+2020-02-03 00:31:48,130 - pid:1909 [I] load_plugins:525 - Loaded plugin proxy.http.proxy.HttpProxyPlugin
+ * Serving Flask app "main_v2" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2020-02-03 00:31:48,151 - pid:1909 [I] listen:63 - Listening on 10.140.0.3:7896
+2020-02-03 00:31:48,154 - pid:1909 [I] start_workers:84 - Started 1 workers
+2020-02-03 00:31:57,641 - pid:1913 [I] access_log:332 - 39.11.69.6:24433 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 16.24 ms
+2020-02-03 00:31:57,857 - pid:1913 [I] access_log:332 - 39.11.69.6:24435 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.48 ms
+2020-02-03 00:31:57,953 - pid:1913 [I] access_log:332 - 39.11.69.6:24439 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.09 ms
+2020-02-03 00:31:58,398 - pid:1913 [I] access_log:332 - 39.11.69.6:24436 - CONNECT graph.facebook.com:443 - 4609 bytes - 533.40 ms
+2020-02-03 00:31:58,515 - pid:1913 [I] access_log:332 - 39.11.69.6:24437 - CONNECT graph.facebook.com:443 - 4340 bytes - 649.00 ms
+2020-02-03 00:31:59,001 - pid:1913 [I] access_log:332 - 39.11.69.6:24442 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.07 ms
+2020-02-03 00:31:59,532 - pid:1913 [I] access_log:332 - 39.11.69.6:24429 - CONNECT ws.batch.com:443 - 5569 bytes - 1986.23 ms
+2020-02-03 00:31:59,533 - pid:1913 [I] access_log:332 - 39.11.69.6:24430 - CONNECT ws.batch.com:443 - 5520 bytes - 1975.10 ms
+2020-02-03 00:31:59,645 - pid:1913 [I] access_log:332 - 39.11.69.6:24443 - CONNECT ocsp.usertrust.com:80 - 1172 bytes - 519.70 ms
+2020-02-03 00:32:00,473 - pid:1913 [I] access_log:332 - 39.11.69.6:24445 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.13 ms
+2020-02-03 00:32:01,755 - pid:1913 [I] access_log:332 - 39.11.69.6:24444 - CONNECT ws.batch.com:443 - 5505 bytes - 2149.61 ms
+2020-02-03 00:32:02,683 - pid:1913 [I] access_log:332 - 39.11.69.6:24446 - CONNECT app-measurement.com:443 - 3630 bytes - 239.84 ms
+2020-02-03 00:32:03,003 - pid:1913 [I] access_log:332 - 39.11.69.6:24447 - CONNECT app-measurement.com:443 - 3583 bytes - 257.81 ms
+2020-02-03 00:32:03,232 - pid:1913 [I] access_log:332 - 39.11.69.6:24448 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.61 ms
+2020-02-03 00:32:03,313 - pid:1913 [I] access_log:332 - 39.11.69.6:24450 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.32 ms
+2020-02-03 00:32:03,532 - pid:1913 [I] access_log:332 - 39.11.69.6:24449 - CONNECT app-measurement.com:443 - 3583 bytes - 258.71 ms
+2020-02-03 00:32:06,305 - pid:1913 [I] access_log:332 - 39.11.69.6:24453 - CONNECT play.googleapis.com:443 - 3783 bytes - 309.12 ms
+2020-02-03 00:32:06,645 - pid:1913 [I] access_log:332 - 39.11.69.6:24431 - CONNECT e.crashlytics.com:443 - 6304 bytes - 9083.88 ms
+2020-02-03 00:32:06,645 - pid:1913 [I] access_log:332 - 39.11.69.6:24451 - CONNECT e.crashlytics.com:443 - 6048 bytes - 3159.89 ms
+2020-02-03 00:32:06,645 - pid:1913 [I] access_log:332 - 39.11.69.6:24452 - CONNECT e.crashlytics.com:443 - 6048 bytes - 3112.31 ms
+2020-02-03 00:32:06,652 - pid:1913 [I] access_log:332 - 39.11.69.6:24432 - CONNECT p60-buy.itunes.apple.com:443 - 6392 bytes - 9061.03 ms
+2020-02-03 00:32:06,653 - pid:1913 [I] access_log:332 - 39.11.69.6:24434 - CONNECT api.mcddaily.com.tw:443 - 6393 bytes - 8827.44 ms
+2020-02-03 00:32:06,653 - pid:1913 [I] access_log:332 - 39.11.69.6:24440 - CONNECT t.appsflyer.com:443 - 4086 bytes - 8530.03 ms
+2020-02-03 00:32:06,653 - pid:1913 [I] access_log:332 - 39.11.69.6:24441 - CONNECT e.crashlytics.com:443 - 401 bytes - 8108.33 ms
+2020-02-03 00:32:06,653 - pid:1913 [I] access_log:332 - 39.11.69.6:24438 - CONNECT data.flurry.com:443 - 6664 bytes - 8796.51 ms
+2020-02-03 00:32:06,654 - pid:1913 [I] access_log:332 - 39.11.69.6:24454 - CONNECT ws.batch.com:443 - 0 bytes - 564.50 ms
+2020-02-03 00:32:10,893 - pid:1913 [I] access_log:332 - 39.11.69.6:24456 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.68 ms
+2020-02-03 00:32:11,162 - pid:1913 [I] access_log:332 - 39.11.69.6:24459 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.59 ms
+2020-02-03 00:32:11,260 - pid:1913 [I] access_log:332 - 39.11.69.6:24462 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.08 ms
+2020-02-03 00:32:11,383 - pid:1913 [I] access_log:332 - 39.11.69.6:24463 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.36 ms
+2020-02-03 00:32:12,693 - pid:1913 [I] access_log:332 - 39.11.69.6:24465 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.13 ms
+2020-02-03 00:32:12,883 - pid:1913 [I] access_log:332 - 39.11.69.6:24458 - CONNECT ws.batch.com:443 - 5569 bytes - 1981.50 ms
+2020-02-03 00:32:12,883 - pid:1913 [I] access_log:332 - 39.11.69.6:24457 - CONNECT ws.batch.com:443 - 5520 bytes - 1981.33 ms
+2020-02-03 00:32:14,263 - pid:1913 [I] access_log:332 - 39.11.69.6:24467 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.57 ms
+2020-02-03 00:32:14,863 - pid:1913 [I] access_log:332 - 39.11.69.6:24466 - CONNECT ws.batch.com:443 - 5505 bytes - 1917.89 ms
+2020-02-03 00:32:16,063 - pid:1913 [I] access_log:332 - 39.11.69.6:24469 - CONNECT app-measurement.com:443 - 3583 bytes - 237.48 ms
+2020-02-03 00:32:21,441 - pid:1913 [I] access_log:332 - 39.11.69.6:24460 - CONNECT api.mcddaily.com.tw:443 - 522 bytes - 10277.46 ms
+2020-02-03 00:32:22,070 - pid:1913 [I] access_log:332 - 39.11.69.6:24455 - CONNECT p60-buy.itunes.apple.com:443 - 1319 bytes - 11176.51 ms
+2020-02-03 00:32:23,160 - pid:1913 [I] access_log:332 - 39.11.69.6:24464 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11762.04 ms
+2020-02-03 00:32:26,097 - pid:1913 [I] access_log:332 - 39.11.69.6:24468 - CONNECT data.flurry.com:443 - 850 bytes - 10302.28 ms
+2020-02-03 00:32:26,196 - pid:1913 [I] access_log:332 - 39.11.69.6:24461 - CONNECT e.crashlytics.com:443 - 401 bytes - 15034.14 ms
+2020-02-03 00:32:27,530 - pid:1913 [I] access_log:332 - 39.11.69.6:24470 - CONNECT ws.batch.com:443 - 0 bytes - 10284.40 ms
+2020-02-03 00:33:25,088 - pid:1913 [I] access_log:332 - 39.11.69.6:24475 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 1.00 ms
+2020-02-03 00:33:25,191 - pid:1913 [I] access_log:332 - 39.11.69.6:24478 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.52 ms
+2020-02-03 00:33:25,260 - pid:1913 [I] access_log:332 - 39.11.69.6:24481 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.61 ms
+2020-02-03 00:33:25,570 - pid:1913 [I] access_log:332 - 39.11.69.6:24483 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 7.76 ms
+2020-02-03 00:33:25,670 - pid:1913 [I] access_log:332 - 39.11.69.6:24477 - CONNECT graph.facebook.com:443 - 3912 bytes - 487.83 ms
+2020-02-03 00:33:25,681 - pid:1913 [I] access_log:332 - 39.11.69.6:24480 - CONNECT data.flurry.com:443 - 4759 bytes - 482.89 ms
+2020-02-03 00:33:26,881 - pid:1913 [I] access_log:332 - 39.11.69.6:24484 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.29 ms
+2020-02-03 00:33:27,000 - pid:1913 [I] access_log:332 - 39.11.69.6:24472 - CONNECT ws.batch.com:443 - 5569 bytes - 1927.81 ms
+2020-02-03 00:33:27,001 - pid:1913 [I] access_log:332 - 39.11.69.6:24474 - CONNECT ws.batch.com:443 - 5520 bytes - 1920.91 ms
+2020-02-03 00:33:27,002 - pid:1913 [I] access_log:332 - 39.11.69.6:24473 - CONNECT ws.batch.com:443 - 5505 bytes - 1929.98 ms
+2020-02-03 00:33:28,320 - pid:1913 [I] access_log:332 - 39.11.69.6:24486 - CONNECT app-measurement.com:443 - 3583 bytes - 237.92 ms
+2020-02-03 00:33:28,619 - pid:1913 [I] access_log:332 - 39.11.69.6:24487 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 16.62 ms
+2020-02-03 00:33:28,634 - pid:1913 [I] access_log:332 - 39.11.69.6:24482 - CONNECT t.appsflyer.com:443 - 3594 bytes - 3213.06 ms
+2020-02-03 00:33:28,650 - pid:1913 [I] access_log:332 - 39.11.69.6:24476 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 3508.66 ms
+2020-02-03 00:33:28,651 - pid:1913 [I] access_log:332 - 39.11.69.6:24485 - CONNECT data.flurry.com:443 - 851 bytes - 621.69 ms
+2020-02-03 00:33:28,651 - pid:1913 [I] access_log:332 - 39.11.69.6:24479 - CONNECT e.crashlytics.com:443 - 6176 bytes - 3451.88 ms
+2020-02-03 00:33:29,866 - pid:1913 [I] access_log:332 - 39.11.69.6:24492 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.47 ms
+2020-02-03 00:33:29,954 - pid:1913 [I] access_log:332 - 39.11.69.6:24495 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.41 ms
+2020-02-03 00:33:30,006 - pid:1913 [I] access_log:332 - 39.11.69.6:24497 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 6.14 ms
+2020-02-03 00:33:30,022 - pid:1913 [I] access_log:332 - 39.11.69.6:24501 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 1.53 ms
+2020-02-03 00:33:30,083 - pid:1913 [I] access_log:332 - 39.11.69.6:24505 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.65 ms
+2020-02-03 00:33:30,123 - pid:1913 [I] access_log:332 - 39.11.69.6:24507 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.55 ms
+2020-02-03 00:33:30,160 - pid:1913 [I] access_log:332 - 39.11.69.6:24493 - CONNECT www.gstatic.com:443 - 4113 bytes - 223.18 ms
+2020-02-03 00:33:30,161 - pid:1913 [I] access_log:332 - 39.11.69.6:24494 - CONNECT play.googleapis.com:443 - 3823 bytes - 208.84 ms
+2020-02-03 00:33:30,162 - pid:1913 [I] access_log:332 - 39.11.69.6:24508 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.44 ms
+2020-02-03 00:33:30,208 - pid:1913 [I] access_log:332 - 39.11.69.6:24496 - CONNECT settings.crashlytics.com:443 - 6491 bytes - 222.95 ms
+2020-02-03 00:33:30,242 - pid:1913 [I] access_log:332 - 39.11.69.6:24513 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.75 ms
+2020-02-03 00:33:30,310 - pid:1913 [I] access_log:332 - 39.11.69.6:24491 - CONNECT graph.facebook.com:443 - 4222 bytes - 468.02 ms
+2020-02-03 00:33:30,325 - pid:1913 [I] access_log:332 - 39.11.69.6:24490 - CONNECT graph.facebook.com:443 - 4465 bytes - 474.63 ms
+2020-02-03 00:33:30,506 - pid:1913 [I] access_log:332 - 39.11.69.6:24509 - CONNECT data.flurry.com:443 - 4778 bytes - 342.15 ms
+2020-02-03 00:33:31,848 - pid:1913 [I] access_log:332 - 39.11.69.6:24519 - CONNECT app-measurement.com:443 - 3583 bytes - 255.66 ms
+2020-02-03 00:33:31,908 - pid:1913 [I] access_log:332 - 39.11.69.6:24516 - CONNECT setting.adzcore.com:443 - 0 bytes - 947.01 ms
+2020-02-03 00:33:32,080 - pid:1913 [I] access_log:332 - 39.11.69.6:24500 - CONNECT ws.batch.com:443 - 5569 bytes - 2072.64 ms
+2020-02-03 00:33:32,088 - pid:1913 [I] access_log:332 - 39.11.69.6:24499 - CONNECT ws.batch.com:443 - 5505 bytes - 2080.75 ms
+2020-02-03 00:33:32,672 - pid:1913 [I] access_log:332 - 39.11.69.6:24512 - CONNECT www.googleadservices.com:443 - 3383 bytes - 2471.36 ms
+2020-02-03 00:33:32,672 - pid:1913 [I] access_log:332 - 39.11.69.6:24515 - CONNECT t.appsflyer.com:443 - 3594 bytes - 2306.23 ms
+2020-02-03 00:33:32,679 - pid:1913 [I] access_log:332 - 39.11.69.6:24498 - CONNECT data.flurry.com:443 - 5437 bytes - 2672.52 ms
+2020-02-03 00:33:32,680 - pid:1913 [I] access_log:332 - 39.11.69.6:24503 - CONNECT www.googleadservices.com:443 - 3383 bytes - 2642.55 ms
+2020-02-03 00:33:32,680 - pid:1913 [I] access_log:332 - 39.11.69.6:24511 - CONNECT www.googleadservices.com:443 - 3383 bytes - 2479.50 ms
+2020-02-03 00:33:32,680 - pid:1913 [I] access_log:332 - 39.11.69.6:24506 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 2559.16 ms
+2020-02-03 00:33:32,681 - pid:1913 [I] access_log:332 - 39.11.69.6:24502 - CONNECT e.crashlytics.com:443 - 6048 bytes - 2657.95 ms
+2020-02-03 00:33:32,681 - pid:1913 [I] access_log:332 - 39.11.69.6:24510 - CONNECT data.flurry.com:443 - 851 bytes - 2518.45 ms
+2020-02-03 00:33:32,681 - pid:1913 [I] access_log:332 - 39.11.69.6:24518 - CONNECT e.crashlytics.com:443 - 5920 bytes - 1121.15 ms
+2020-02-03 00:33:32,688 - pid:1913 [I] access_log:332 - 39.11.69.6:24517 - CONNECT e.crashlytics.com:443 - 6048 bytes - 1679.74 ms
+2020-02-03 00:33:37,472 - pid:1913 [I] access_log:332 - 39.11.69.6:24520 - CONNECT mesu.apple.com:443 - 4900 bytes - 2300.94 ms
+2020-02-03 00:33:40,396 - pid:1913 [I] access_log:332 - 39.11.69.6:24471 - CONNECT p60-buy.itunes.apple.com:443 - 8736 bytes - 15362.73 ms
+2020-02-03 00:33:41,427 - pid:1913 [I] access_log:332 - 39.11.69.6:24529 - CONNECT lohaco.jp:443 - 4004 bytes - 3455.80 ms
+2020-02-03 00:33:41,463 - pid:1913 [I] access_log:332 - 39.11.69.6:24528 - CONNECT lohaco.jp:443 - 3741 bytes - 3490.29 ms
+2020-02-03 00:33:41,495 - pid:1913 [I] access_log:332 - 39.11.69.6:24527 - CONNECT lohaco.jp:443 - 3885 bytes - 3523.10 ms
+2020-02-03 00:33:41,656 - pid:1913 [I] access_log:332 - 39.11.69.6:24524 - CONNECT lohaco.jp:443 - 32665 bytes - 6086.40 ms
+2020-02-03 00:33:46,112 - pid:1913 [I] access_log:332 - 39.11.69.6:24522 - CONNECT gateway.icloud.com:443 - 5608 bytes - 10576.54 ms
+2020-02-03 00:33:46,176 - pid:1913 [I] access_log:332 - 39.11.69.6:24523 - CONNECT gateway.icloud.com:443 - 5618 bytes - 10641.46 ms
+2020-02-03 00:33:46,685 - pid:1913 [I] access_log:332 - 39.11.69.6:24521 - CONNECT init.itunes.apple.com:443 - 35318 bytes - 11412.58 ms
+2020-02-03 00:33:48,277 - pid:1913 [I] access_log:332 - 39.11.69.6:24530 - CONNECT cdn.reproio.com:443 - 69333 bytes - 10306.51 ms
+2020-02-03 00:33:48,714 - pid:1913 [I] access_log:332 - 39.11.69.6:24532 - CONNECT anubis.api.lohaco.jp:443 - 5383 bytes - 10633.88 ms
+2020-02-03 00:33:48,945 - pid:1913 [I] access_log:332 - 39.11.69.6:24525 - CONNECT assets.adobedtm.com:443 - 5046 bytes - 11542.35 ms
+2020-02-03 00:33:49,092 - pid:1913 [I] access_log:332 - 39.11.69.6:24533 - CONNECT api.reproio.com:443 - 7883 bytes - 10604.52 ms
+2020-02-03 00:33:49,181 - pid:1913 [I] access_log:332 - 39.11.69.6:24537 - CONNECT ask-s10-net1-vpc1-prod.appspot.com:443 - 3801 bytes - 10240.54 ms
+2020-02-03 00:33:49,279 - pid:1913 [I] access_log:332 - 39.11.69.6:24535 - CONNECT fw-steam-lab.appspot.com:443 - 5424 bytes - 10437.08 ms
+2020-02-03 00:33:49,422 - pid:1913 [I] access_log:332 - 39.11.69.6:24536 - CONNECT askulcorporation.tt.omtrdc.net:443 - 4073 bytes - 10550.52 ms
+2020-02-03 00:33:49,836 - pid:1913 [I] access_log:332 - 39.11.69.6:24538 - CONNECT clip-transporter.reproio.com:443 - 8176 bytes - 10624.18 ms
+2020-02-03 00:33:50,281 - pid:1913 [I] access_log:332 - 39.11.69.6:24531 - CONNECT askulcorporation.tt.omtrdc.net:443 - 9474 bytes - 12230.28 ms
+2020-02-03 00:33:50,409 - pid:1913 [I] access_log:332 - 39.11.69.6:24526 - CONNECT askul.c.yimg.jp:443 - 33873 bytes - 12977.10 ms
+2020-02-03 00:33:52,378 - pid:1913 [I] access_log:332 - 39.11.69.6:24541 - CONNECT ssl.gstatic.com:443 - 7473 bytes - 10196.90 ms
+2020-02-03 00:33:52,385 - pid:1913 [I] access_log:332 - 39.11.69.6:24542 - CONNECT lh3.googleusercontent.com:443 - 9088 bytes - 10206.32 ms
+2020-02-03 00:33:52,565 - pid:1913 [I] access_log:332 - 39.11.69.6:24540 - CONNECT www.gstatic.com:443 - 27835 bytes - 10432.89 ms
+2020-02-03 00:33:54,371 - pid:1913 [I] access_log:332 - 39.11.69.6:24539 - CONNECT www.google.com.tw:443 - 303547 bytes - 12738.58 ms
+2020-02-03 00:33:54,433 - pid:1913 [I] access_log:332 - 39.11.69.6:24543 - CONNECT www.google.com.tw:443 - 3576 bytes - 12051.19 ms
+2020-02-03 00:33:57,199 - pid:1913 [I] access_log:332 - 39.11.69.6:24547 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 0.60 ms
+2020-02-03 00:33:57,301 - pid:1913 [I] access_log:332 - 39.11.69.6:24551 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 8.40 ms
+2020-02-03 00:33:57,390 - pid:1913 [I] access_log:332 - 39.11.69.6:24553 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.37 ms
+2020-02-03 00:33:57,396 - pid:1913 [I] access_log:332 - 39.11.69.6:24558 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 1.59 ms
+2020-02-03 00:33:57,411 - pid:1913 [I] access_log:332 - 39.11.69.6:24548 - CONNECT www.gstatic.com:443 - 4112 bytes - 199.86 ms
+2020-02-03 00:33:57,460 - pid:1913 [I] access_log:332 - 39.11.69.6:24549 - CONNECT play.googleapis.com:443 - 3821 bytes - 228.69 ms
+2020-02-03 00:33:57,462 - pid:1913 [I] access_log:332 - 39.11.69.6:24561 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 9.83 ms
+2020-02-03 00:33:57,468 - pid:1913 [I] access_log:332 - 39.11.69.6:24562 - CONNECT api1.mcddailyapp.com:443 - 0 bytes - 4.76 ms
+2020-02-03 00:33:57,528 - pid:1913 [I] access_log:332 - 39.11.69.6:24550 - CONNECT settings.crashlytics.com:443 - 6276 bytes - 248.97 ms
+2020-02-03 00:33:57,529 - pid:1913 [I] access_log:332 - 39.11.69.6:24564 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 0.47 ms
+2020-02-03 00:33:57,606 - pid:1913 [I] access_log:332 - 39.11.69.6:24567 - CONNECT api2.mcddailyapp.com:443 - 0 bytes - 8.59 ms
+2020-02-03 00:33:57,653 - pid:1913 [I] access_log:332 - 39.11.69.6:24545 - CONNECT graph.facebook.com:443 - 4220 bytes - 470.75 ms
+2020-02-03 00:33:57,672 - pid:1913 [I] access_log:332 - 39.11.69.6:24546 - CONNECT graph.facebook.com:443 - 4462 bytes - 480.69 ms
+2020-02-03 00:33:57,849 - pid:1913 [I] access_log:332 - 39.11.69.6:24544 - CONNECT gateway-carry.icloud.com:443 - 10524 bytes - 11695.30 ms
+2020-02-03 00:33:58,022 - pid:1913 [I] access_log:332 - 39.11.69.6:24559 - CONNECT data.flurry.com:443 - 4780 bytes - 609.79 ms
+2020-02-03 00:33:58,336 - pid:1913 [I] access_log:332 - 39.11.69.6:24570 - CONNECT setting.adzcore.com:443 - 0 bytes - 23.58 ms
+2020-02-03 00:33:59,228 - pid:1913 [I] access_log:332 - 39.11.69.6:24557 - CONNECT ws.batch.com:443 - 5569 bytes - 1840.07 ms
+2020-02-03 00:33:59,228 - pid:1913 [I] access_log:332 - 39.11.69.6:24556 - CONNECT ws.batch.com:443 - 5505 bytes - 1839.53 ms
+2020-02-03 00:34:02,894 - pid:1913 [I] access_log:332 - 39.11.69.6:24534 - CONNECT p14-keyvalueservice.icloud.com:443 - 11486 bytes - 24092.43 ms
+2020-02-03 00:34:04,812 - pid:1913 [I] access_log:332 - 39.11.69.6:24573 - CONNECT ws.batch.com:443 - 5520 bytes - 2419.22 ms
+2020-02-03 00:34:07,595 - pid:1913 [I] access_log:332 - 39.11.69.6:24554 - CONNECT www.googleadservices.com:443 - 3383 bytes - 10205.05 ms
+2020-02-03 00:34:07,676 - pid:1913 [I] access_log:332 - 39.11.69.6:24555 - CONNECT api.mcddaily.com.tw:443 - 6068 bytes - 10285.99 ms
+2020-02-03 00:34:07,838 - pid:1913 [I] access_log:332 - 39.11.69.6:24566 - CONNECT data.flurry.com:443 - 4764 bytes - 10266.22 ms
+2020-02-03 00:34:07,847 - pid:1913 [I] access_log:332 - 39.11.69.6:24565 - CONNECT data.flurry.com:443 - 873 bytes - 10284.75 ms
+2020-02-03 00:34:08,795 - pid:1913 [I] access_log:332 - 39.11.69.6:24560 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11332.76 ms
+2020-02-03 00:34:09,056 - pid:1913 [I] access_log:332 - 39.11.69.6:24552 - CONNECT p60-buy.itunes.apple.com:443 - 6392 bytes - 11754.22 ms
+2020-02-03 00:34:09,393 - pid:1913 [I] access_log:332 - 39.11.69.6:24568 - CONNECT t.appsflyer.com:443 - 3594 bytes - 11747.77 ms
+2020-02-03 00:34:09,427 - pid:1913 [I] access_log:332 - 39.11.69.6:24571 - CONNECT e.crashlytics.com:443 - 273 bytes - 11014.89 ms
+2020-02-03 00:34:09,784 - pid:1913 [I] access_log:332 - 39.11.69.6:24572 - CONNECT e.crashlytics.com:443 - 6048 bytes - 11362.83 ms
+2020-02-03 00:34:12,750 - pid:1913 [I] access_log:332 - 39.11.69.6:24574 - CONNECT graph.facebook.com:443 - 3909 bytes - 497.07 ms

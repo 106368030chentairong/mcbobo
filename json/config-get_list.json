@@ -1,0 +1,253 @@
+{
+    "rc": 1,
+    "results": {
+        "configs": [
+            {
+                "key": "ios_app_latest_version",
+                "title": "iOS APP 最新版本號",
+                "value": "2.2.0"
+            },
+            {
+                "key": "couponWidth",
+                "title": "優惠券圖寬度",
+                "value": "1080"
+            },
+            {
+                "key": "couponHeight",
+                "title": "優惠券圖高度",
+                "value": "1920"
+            },
+            {
+                "key": "stickerWidth",
+                "title": "歡樂貼圖寬度",
+                "value": "300"
+            },
+            {
+                "key": "stickerHeight",
+                "title": "觀樂貼圖高度",
+                "value": "300"
+            },
+            {
+                "key": "advertisingWidth",
+                "title": "廣告首頁圖寬度",
+                "value": "1080"
+            },
+            {
+                "key": "advertisingHeight",
+                "title": "廣告首頁圖高度",
+                "value": "1920"
+            },
+            {
+                "key": "android_app_latest_version",
+                "title": "Android APP 最新版本號",
+                "value": "2.2.0"
+            },
+            {
+                "key": "ios_app_url",
+                "title": "App Store 下載網址",
+                "value": "https://geo.itunes.apple.com/tw/app/mai-dang-lao-bao-bao/id1094635803?mt=8"
+            },
+            {
+                "key": "android_app_url",
+                "title": "Google Play 下載網址",
+                "value": "https://play.google.com/store/apps/details?id=tw.com.mcddaily"
+            },
+            {
+                "key": "app_is_disabled",
+                "title": "App 是否停止營運",
+                "value": "0"
+            },
+            {
+                "key": "coupon_tutorial",
+                "title": "優惠券使用說明",
+                "value": "<div style=\"padding: 5px 10px;\">     <h2 style=\"line-height: 1.5;\"><span style=\"font-family: 'HelveticaNeue';\">優惠券說明</span></h2>     <p><span style=\"font-family: 'Helvetica Neue';\">使用期限：當下獲得日期開始計算三天內有效</span></p>     <p><span style=\"font-family: 'Helvetica Neue';\">兌換時間：二分鐘，倒數完即失效</span></p>     <p><spanstyle=\"font-family: 'Helvetica Neue';\">兌換建議：請於麥當勞櫃檯時再點選兌換按鈕，以保障您的權益</span></p>     <p><spanstyle=\"font-family: 'Helvetica Neue';\"><div>消失期限：使用後及過期之優惠券將於七天後消失</div></span></p>   </div>"
+            },
+            {
+                "key": "sticker_tutorial",
+                "title": "歡樂貼使用說明",
+                "value": "<div style=\"padding: 5px 10px;\">     <h2 style=\"line-height: 1.5;\"><span style=\"font-family: 'HelveticaNeue';\">歡樂貼說明</span></h2>     <p><span style=\"font-family: 'Helvetica Neue';\">累積期限：每月所累積之歡樂貼將於隔月月底自動失效</span></p>     <p><span style=\"font-family: 'Helvetica Neue';\">失效範例：6/01 - 6/30 所累積的歡樂貼，將於7/31自動失效</span></p><p><span style=\"font-family: 'Helvetica Neue';\">兌換規則：累積六張有效歡樂貼，可兌換優惠券乙張</span></p>     </div>"
+            },
+            {
+                "key": "contact_us_url",
+                "title": "聯絡我們網址",
+                "value": "http://www.mcdonalds.com.tw/tw/ch/contact_us.html"
+            },
+            {
+                "key": "card_enabled",
+                "title": "點點卡功能是否開啟",
+                "value": "0"
+            },
+            {
+                "key": "card_transfer_tutorial",
+                "title": "卡片轉置說明",
+                "value": "確認移轉後，轉出之點點卡餘額和點數將「全數」移轉至指定轉入之點點卡中"
+            },
+            {
+                "key": "contact_us_tel",
+                "title": "聯絡我們電話",
+                "value": "0800-211-321"
+            },
+            {
+                "key": "contact_us_email",
+                "title": "聯絡我們信箱",
+                "value": "tw-app.customer@tw.mcd.com"
+            },
+            {
+                "key": "contact_us_no_email_message",
+                "title": "聯絡我們沒有設定信箱時的說明文字",
+                "value": "若您有任何 App 使用上的功能建議、系統問題等，歡迎來信至 tw-app.customer@tw.mcd.com，感謝您的意見回饋！"
+            },
+            {
+                "key": "restrictstart",
+                "title": "是否限制啟用大於現在日期",
+                "value": "1"
+            },
+            {
+                "key": "app_disabled_message",
+                "title": "App 停止營運說明",
+                "value": "【系統維護】報報APP於1/7 (二)凌晨00:00～06:00系統維護中，APP暫停使用，造成不便，敬請見諒。"
+            },
+            {
+                "key": "extendDays",
+                "title": "贈品到期日+n天",
+                "value": "3"
+            },
+            {
+                "key": "NormalActEndDays",
+                "title": "一般活動最大終止日",
+                "value": "11"
+            },
+            {
+                "key": "RedeemActEndDays",
+                "title": "兌換活動最大終止日",
+                "value": "45"
+            },
+            {
+                "key": "RewardActEndDays",
+                "title": "贈獎活動最大終止日",
+                "value": "45"
+            },
+            {
+                "key": "MaxActAwardCnt",
+                "title": "活動贈品最大之總合數量",
+                "value": "1400000"
+            },
+            {
+                "key": "public_survey_is_enabled",
+                "title": "公眾問卷調查是否開啟",
+                "value": "1"
+            },
+            {
+                "key": "public_survey_url",
+                "title": "公眾問卷調查網址",
+                "value": "https://mcdfeedback.co/tw/survey"
+            },
+            {
+                "key": "public_survey_title",
+                "title": "公眾問卷調查側邊選單標題",
+                "value": "餐廳滿意度調查"
+            },
+            {
+                "key": "advertising2Width",
+                "title": "廣告詳情頁圖寬度",
+                "value": "1080"
+            },
+            {
+                "key": "advertising2Height",
+                "title": "廣告詳情頁圖高度",
+                "value": "1215"
+            },
+            {
+                "key": "announcement_id",
+                "title": "蓋版公告編號",
+                "value": "19"
+            },
+            {
+                "key": "announcement_title",
+                "title": "蓋版公告標題",
+                "value": "【系統維護通知】"
+            },
+            {
+                "key": "announcement_message",
+                "title": "蓋版公告訊息",
+                "value": "麥當勞報報APP於1/7 (二)凌晨00:00～06:00進行系統維護。維護期間APP無法登入與使用，造成不便，敬請見諒。"
+            },
+            {
+                "key": "announcement_skip_button_title",
+                "title": "蓋版公告略過按鈕標題",
+                "value": "稍後再看"
+            },
+            {
+                "key": "announcement_ok_button_title",
+                "title": "蓋版公告確認按鈕標題",
+                "value": "我知道了"
+            },
+            {
+                "key": "announcement_online_datetime",
+                "title": "蓋版公告上架日期",
+                "value": "2020-01-03T13:00:00+08:00"
+            },
+            {
+                "key": "announcement_offline_datetime",
+                "title": "蓋版公告下架日期",
+                "value": "2020-01-07T06:59:59+08:00"
+            },
+            {
+                "key": "OtherCouponChgEndDays",
+                "title": "獨享券最後修改時限",
+                "value": "1"
+            },
+            {
+                "key": "other_coupon_tutorial",
+                "title": "獨享券使用說明",
+                "value": "<h2 style=\"line-height: 1.5;\">獨享券說明</h2><p>使用說明：每張獨享券為隨機派送，含一組QR Code、條碼和優惠序號，限使用一次</p><p>使用方式：依各獨享券說明，憑畫面或QR Code 或條碼或序號進行兌換，並點擊「兌換優惠」按鍵，完成兌換流程</p><p>使用場所：限指定通路或地點</p><p>使用期限：依各獨享券之優惠期限為準</p><p>優惠內容：依各獨享券之優惠內容為準</p><p>注意事項：如有未盡事宜，麥當勞保有隨時調整活動辦法、活動時間、優惠內容及終止活動之權利</p>"
+            },
+            {
+                "key": "card_lost_policy_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/lost.aspx"
+            },
+            {
+                "key": "card_reward_ios_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardIntroduction_app_ios.aspx"
+            },
+            {
+                "key": "card_intro_ios_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardList_app_ios.aspx"
+            },
+            {
+                "key": "card_reward_android_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardIntroduction_app.aspx"
+            },
+            {
+                "key": "card_intro_android_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardList_app.aspx"
+            },
+            {
+                "key": "card_reward_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardIntroduction_app.aspx"
+            },
+            {
+                "key": "card_intro_url",
+                "title": "",
+                "value": "https://www.mcddaily.com.tw/CardList_app.aspx"
+            },
+            {
+                "key": "advertisingSize",
+                "title": "廣告首頁圖大小(KB)",
+                "value": "200"
+            },
+            {
+                "key": "mwos_url",
+                "title": "歡樂送網頁網址",
+                "value": "https://www.mcdelivery.com.tw/tw/"
+            }
+        ]
+    },
+    "rm": "成功"
+}

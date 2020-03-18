@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=US
+ST=mcbobo
+L=mcbobo
+O=mcbobo
+OU=mcbobo
+emailAddress=mcbobo@gmail.com
+CN=api1.mcddailyapp.com

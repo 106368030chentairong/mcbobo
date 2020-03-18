@@ -1,0 +1,15 @@
+{
+    "coupon_id": 1,
+    "type": "coupon",
+    "status": 1,
+    "object_info": {
+        "object_id": 451,
+        "image": {
+            "url": "https://mcdapp1.azureedge.net/P_G40101.jpg",
+            "width": 1080,
+            "height": 1920
+        },
+        "title": "",
+        "redeem_end_datetime": "2021/01/21 23:59:59"
+    }
+}

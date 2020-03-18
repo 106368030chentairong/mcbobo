@@ -1,0 +1,24 @@
+{
+    "rc": 1,
+    "rm": "\u6210\u529f",
+    "results": {
+        "stickers": [
+            {
+                "sticker_id": 1,
+                "type": "sticker",
+                "status": 1,
+                "object_info": {
+                    "object_id": 18,
+                    "image": {
+                        "url": "https://mcdapp1.azureedge.net/sticker_01.png",
+                        "width": 300,
+                        "height": 300
+                    },
+                    "title": "\u6b61\u6a02\u8cbc (0)",
+                    "expire_datetime": "2099/01/01 00:00:00"
+                },
+                "obtain_datetime": "2020/01/01 00:00:00"
+            }
+        ]
+    }
+}

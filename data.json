@@ -1,0 +1,24 @@
+{
+    "rm": "\u6210\u529f",
+    "results": {
+        "current_datetime": "2020/01/18 15:59:31",
+        "coupons": [
+            {
+                "status": 1,
+                "object_info": {
+                    "redeem_end_datetime": "2020/01/20 23:59:59",
+                    "image": {
+                        "url": "https://mcdapp1.azureedge.net/P_G11901.jpg",
+                        "width": 1080,
+                        "height": 1920
+                    },
+                    "object_id": 530,
+                    "title": "\u8cb7\u4efb\u4e00\u8d85\u503c\u5168\u9910\u9001\u860b\u679c\u6d3e"
+                },
+                "type": "coupon",
+                "coupon_id": 1151976893
+            }
+        ]
+    },
+    "rc": 1
+}

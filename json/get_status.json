@@ -1,0 +1,14 @@
+{
+    "rc": 1,
+    "results": {
+        "weather": {
+            "code": "29",
+            "high": "20",
+            "low": "19",
+            "sunrise": "5:12 am",
+            "sunset": "6:48 pm",
+            "temp": "20"
+        }
+    },
+    "rm": "成功"
+}
