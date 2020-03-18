@@ -1,0 +1,9 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+extendedKeyUsage=serverAuth,OCSPSigning
+subjectAltName=@alt_names
+
+[alt_names]
+DNS.1=mcddailyapp.com
+DNS.2=*.mcddailyapp.com
