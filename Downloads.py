@@ -1,5 +1,5 @@
 import os,sys
-import urllib2
+import urllib.request
 
 lable = ["G","S","Q"]
 other = ["","_1","_2"]
@@ -11,7 +11,7 @@ if sys.argv[1] == "1":
                 url = "https://mcdapp1.azureedge.net/"
                 name = "P_" + l + str(i).zfill(3) + x
                 try: 
-                    filedata = urllib2.urlopen(url + name + ".jpg")
+                    filedata = urllib.request.urlopen(url + name + ".jpg")
                     datatowrite = filedata.read()
                     with open('./image/'+name+".jpg", 'wb') as f:
                         f.write(datatowrite)
@@ -19,7 +19,7 @@ if sys.argv[1] == "1":
                 except Exception:
                     print('NULL : ', url + name)
 
-lable_2 = ["Q","S","Q"]
+lable_2 = ["G","S","Q"]
 if sys.argv[1] == "2":
     for l in lable_2:
         try:
@@ -33,7 +33,7 @@ if sys.argv[1] == "2":
                     url = "https://mcdapp1.azureedge.net/"
                     name = "P_"+ l + str(x) + (str(y)).zfill(2) + (str(z)).zfill(2)
                     try: 
-                        filedata = urllib2.urlopen(url + name + ".jpg")
+                        filedata = urllib.request.urlopen(url + name + ".jpg")
                         datatowrite = filedata.read()
                         with open('./'+'image_'+l+'/'+name+".jpg", 'wb') as f:
                             f.write(datatowrite)

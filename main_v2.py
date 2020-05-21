@@ -76,7 +76,7 @@ def main():
 
 def proxy_main():
     try:
-        proxy.main(['--hostname', '10.140.0.3','--port', '7896','--basic-auth','s321790:s22648949','--client-recvbuf-size','500','--server-recvbuf-size','500'])
+        proxy.main(['--hostname', '10.138.0.3','--port', '7896','--basic-auth','s321790:s22648949','--client-recvbuf-size','500','--server-recvbuf-size','500'])
     except Exception:
         print("Exception !")
 
