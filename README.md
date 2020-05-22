@@ -25,4 +25,16 @@ sudo nano /etc/hosts
 ## install apache2
 sudo apt-get install apache2
 sudo chmod 777 * -R /var/www/html
-sudo chmod 777 * -R /var/www/html/image/output.json 
+sudo chmod 777 * -R /var/www/html/image/output.json
+
+## Install PHP
+sudo apt install php libapache2-mod-php php-mysql
+sudo apt install php-cli php-curl php-mbstring php-gd php-json php-xml php-pear
+
+## restart apache2
+sudo systemctl restart apache2
+
+## background  process
+nohup sudo python3 main_v2.py >&log&
+tail -f log
+
