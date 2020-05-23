@@ -1,6 +1,8 @@
-# Welcom to McBO
+# Welcom to McBoBo
 
 ## What is this about?
+每次都抽不到麥當勞報報的優惠卷？該是時候用原版麥當勞報報來選擇自己想要的優惠卷，使用原版ＡＰＰ不管重新下載或是沒有帳號都可以經由proxy代理方式替換掉官方伺服器，讓原版ＡＰＰ收到你所設定的優惠卷。
+
 ![image](./demo.png)
 
 ## update 
