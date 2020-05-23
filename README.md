@@ -1,6 +1,7 @@
 # Welcom to McBO
 
 ## What is this about?
+![image](./demo.png)
 
 ## update 
 ```
